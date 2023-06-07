@@ -11,6 +11,19 @@ The UCSD Theta Tau Chapter Website Redesign project focuses on revamping the exi
 
 - Performance Optimization: We understand the importance of speed and responsiveness. Our redesign will incorporate optimizations to deliver a faster and smoother browsing experience.
 
+## User Research
+Before initiating the redesign process, we conducted thorough user research to gain insights into the existing website's strengths, weaknesses, and user expectations. The research included surveys with current and potential users of the UCSD Theta Tau Chapter website.
+
+### Key Findings:
+
+1. Outdated Design: Users expressed dissatisfaction with the website's outdated design, which made it feel less professional and visually unappealing.
+
+2. Navigation Issues: Several users reported difficulties in finding specific information or navigating through different sections of the website.
+
+3. Mobile Responsiveness: The original website lacked optimal responsiveness on mobile devices, leading to a subpar user experience for a significant portion of the user base.
+
+4. Content Relevance: Users expressed a desire for more up-to-date and relevant content, including event updates, news, and resources related to the UCSD Theta Tau Chapter.
+
 ## Repository Structure
 The repository is organized as follows:
 
