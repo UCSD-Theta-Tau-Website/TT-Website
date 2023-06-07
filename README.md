@@ -1,5 +1,5 @@
 # UCSD Theta Tau Chapter Website Redesign
-Welcome to the README file of the UCSD Theta Tau Chapter Website Redesign repository. This project aims to address the issues with the original website, which was created in 2018. Over time, the website's layout and content have become outdated, resulting in user dissatisfaction and performance concerns. Our goal with this new website redesign is to improve the overall user experience and create a visually appealing, modern, and user-friendly website.
+Welcome to the README file of the UCSD Theta Tau Chapter Website Redesign repository. This project aims to address the issues with the [original website](https://github.com/UCSDTT/ucsdtt-website), which was created in 2018. Over time, the website's layout and content have become outdated, resulting in user dissatisfaction and performance concerns. Our goal with this new website redesign is to improve the overall user experience and create a visually appealing, modern, and user-friendly website.
 
 ## Project Overview
 The UCSD Theta Tau Chapter Website Redesign project focuses on revamping the existing website to meet current web design standards and implement features requested by users. This repository serves as the central hub for the project's source code and design processes.
