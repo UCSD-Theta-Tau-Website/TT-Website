@@ -35,7 +35,7 @@ design: Contains design-related materials, including design decisions, prototype
 Contributions to this project are welcome! If you encounter any issues or have ideas for improvement, please open an issue in the issues directory. Additionally, you can submit pull requests with bug fixes, new features, or other enhancements.
 
 ## Contact
-If you have any questions or need further assistance, please don't hesitate to reach out to the project maintainers at [INSERT THETATAU EMAIL].
+If you have any questions or need further assistance, please don't hesitate to reach out to the project maintainers at [officialucsdtt@gmail.com](officialucsdtt@gmail.com).
 
 We appreciate your interest in the UCSD Theta Tau Chapter Website Redesign project and hope that our efforts will result in a more enjoyable and engaging experience for all users.
 
