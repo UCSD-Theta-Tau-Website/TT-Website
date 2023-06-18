@@ -24,12 +24,8 @@ Before initiating the redesign process, we conducted thorough user research to g
 
 4. Content Relevance: Users expressed a desire for more up-to-date and relevant content, including event updates, news, and resources related to the UCSD Theta Tau Chapter.
 
-## Repository Structure
-The repository is organized as follows:
-
-src: Contains the source code for the new website design and any related assets.
-
-design: Contains design-related materials, including design decisions, prototypes, and iterations.
+## Design
+Our design iterations can be found here [https://www.figma.com/file/TT-Website-Redesign](https://www.figma.com/file/VG2Qd1TZSExpOmNaifMDlS/TT-Website-Redesign?type=design&node-id=1-4).
 
 ## Contributions
 Contributions to this project are welcome! If you encounter any issues or have ideas for improvement, please open an issue in the issues directory. Additionally, you can submit pull requests with bug fixes, new features, or other enhancements.
