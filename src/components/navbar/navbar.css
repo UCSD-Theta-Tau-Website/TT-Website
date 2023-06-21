@@ -1,0 +1,29 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbarContainer a {
+  text-decoration: none;
+  color: black;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.leftNavbar {
+  display: flex;
+  align-items: center;
+}
+
+#thetaTau {
+}
+
+.rightNavbar {
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 5vw;
+}
