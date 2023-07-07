@@ -26,18 +26,26 @@ const Footer = () => {
             Instagram
           </a>
           <a
+            href="https://www.linkedin.com/company/ucsdthetatau"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
             href="mailto:officialucsdtt@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             Email
           </a>
+
           <a
-            href="https://www.linkedin.com/company/ucsdthetatau"
+            href="https://github.com/UCSD-Theta-Tau-Website/TT-Website"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            GitHub
           </a>
         </div>
       </div>
