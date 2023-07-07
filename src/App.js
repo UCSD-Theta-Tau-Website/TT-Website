@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/navbar/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
 import Brothers from "./components/pages/brothers";
 import Rush from "./components/pages/rush";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/brothers" element={<Brothers />} />
         <Route path="/rush" element={<Rush />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

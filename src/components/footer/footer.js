@@ -1,0 +1,48 @@
+import React from "react";
+import { NavLink as Link } from "react-router-dom";
+import "./footer.css";
+
+const Footer = () => {
+  return (
+    <div class="footer">
+      <div class="footerContainer">
+        <div class="leftFooter">
+          <Link to="/"> Theta Tau</Link>
+        </div>
+
+        <div class="rightFooter">
+          <a
+            href="https://www.facebook.com/thetatau.ucsd/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+          <a
+            href="https://www.instagram.com/ucsdthetatau/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          <a
+            href="mailto:officialucsdtt@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Email
+          </a>
+          <a
+            href="https://www.linkedin.com/company/ucsdthetatau"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
