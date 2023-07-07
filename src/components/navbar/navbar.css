@@ -1,29 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  background-color: white;
+}
+
 .navbarContainer {
   display: flex;
   justify-content: space-between;
+  height: 80px;
+  z-index: 10;
+  width: 100%;
+  padding: 0 50px;
   align-items: center;
-  padding: 20px;
 }
 
 .navbarContainer a {
   text-decoration: none;
   color: black;
-  font-size: 3vh;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .leftNavbar {
   display: flex;
   align-items: center;
+  width: 50px;
 }
 
-#thetaTau {
+.leftNavbar img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
 }
 
 .rightNavbar {
-  margin-top: -30px;
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-right: 5vw;
 }
