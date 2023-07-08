@@ -1,0 +1,122 @@
+.card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  backdrop-filter: blur(1px);
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  height: 90%;
+  width: 90%;
+
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.leftCard {
+  width: 28%;
+  background-color: #faf9f6;
+}
+
+.portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.portrait img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.midCard {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  width: 53%;
+  background-color: #faf9f6;
+}
+
+.nameSection {
+  margin-bottom: 3%;
+}
+
+.nameSection h3 {
+  font-size: 1vw;
+  margin-top: 5px;
+  font-weight: 300;
+  color: #a0a0a0;
+}
+
+.nameSection h1 {
+  color: #891a1f;
+  font-size: 2vw;
+}
+
+.nameSection #pronouns {
+  font-style: italic;
+}
+
+.responseSection h2 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  /* font-size: 1.5rem; */
+  font-size: 1.8vw;
+  font-weight: 500;
+}
+
+.responseSection h3 {
+  font-size: 1.15vw;
+  font-weight: 300;
+}
+
+.rightCard {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 19%;
+}
+
+.rightCard h2 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.rightCard h3 {
+  font-size: 1vw;
+  font-weight: 300;
+  margin-bottom: 10%;
+}
+
+#close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  z-index: 1001;
+}
