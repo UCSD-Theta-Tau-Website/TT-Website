@@ -8,8 +8,11 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbarContainer">
         <div className="leftNavbar">
-          <Link to="/">
-            <img src={jaqueminotBorder} alt="jaqueminot" />
+          <Link to="/" id="logo">
+            <div className="imgContainer">
+              <img src={jaqueminotBorder} alt="jaqueminot" />
+            </div>
+            <h3>Theta Tau</h3>
           </Link>
         </div>
         <div className="rightNavbar">

@@ -30,13 +30,25 @@
 .leftNavbar {
   display: flex;
   align-items: center;
+  /* width: 50px; */
+}
+
+.leftNavbar #logo {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+}
+
+.imgContainer {
   width: 50px;
+  margin-right: 10px;
 }
 
 .leftNavbar img {
   max-width: 100%;
   max-height: 100%;
   height: auto;
+  /* margin-right: 15px; */
 }
 
 .rightNavbar {
