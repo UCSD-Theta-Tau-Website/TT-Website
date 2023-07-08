@@ -16,23 +16,23 @@ const BrotherCard = ({ name }) => {
 
   console.log(name);
   return (
-    <div class="card">
-      <div class="cardContainer">
+    <div className="card">
+      <div className="cardContainer">
         <GrClose id="close" />
 
-        <div class="leftCard">
+        <div className="leftCard">
           <div className="portrait">
             <img src={imagePath}></img>
           </div>
         </div>
 
-        <div class="midCard">
-          <div class="nameSection">
+        <div className="midCard">
+          <div className="nameSection">
             <h3> Brother</h3>
             <h1>{name}</h1>
             <h3 id="pronouns">{pronouns}</h3>
           </div>
-          <div class="responseSection">
+          <div className="responseSection">
             <h2> What are your professional goals and aspirations?</h2>
             <h3>{career}</h3>
             <h2>
@@ -44,7 +44,7 @@ const BrotherCard = ({ name }) => {
           </div>
         </div>
 
-        <div class="rightCard">
+        <div className="rightCard">
           <h2>Year</h2>
           <h3>{graduation}</h3>
           <h2>Major</h2>

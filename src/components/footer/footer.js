@@ -4,13 +4,13 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div class="footer">
-      <div class="footerContainer">
-        <div class="leftFooter">
+    <div className="footer">
+      <div className="footerContainer">
+        <div className="leftFooter">
           <Link to="/"> Theta Tau</Link>
         </div>
 
-        <div class="rightFooter">
+        <div className="rightFooter">
           <a
             href="https://www.facebook.com/thetatau.ucsd/"
             target="_blank"

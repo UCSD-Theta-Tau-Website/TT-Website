@@ -5,14 +5,14 @@ import jaqueminotBorder from "../../images/jaqueminotBorder.webp";
 
 const Navbar = () => {
   return (
-    <div class="navbar">
-      <div class="navbarContainer">
-        <div class="leftNavbar">
+    <div className="navbar">
+      <div className="navbarContainer">
+        <div className="leftNavbar">
           <Link to="/">
             <img src={jaqueminotBorder} alt="jaqueminot" />
           </Link>
         </div>
-        <div class="rightNavbar">
+        <div className="rightNavbar">
           <Link to="/about">About Us</Link>
           <Link to="/rush">Rush</Link>
           <Link to="/brothers">Brothers</Link>
