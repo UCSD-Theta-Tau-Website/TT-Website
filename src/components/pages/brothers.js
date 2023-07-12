@@ -23,7 +23,7 @@ const Brothers = () => {
       <h1>testing</h1>
       <div className="cardsContainer">
         {/* this is just for testing and seeing what the member modal looks like */}
-        <BrotherCard name="Huy Tran"></BrotherCard>
+        {/* <BrotherCard name="Huy Tran"></BrotherCard> */}
         {/* <BrotherCard name="Tiffany Joa"></BrotherCard> */}
       </div>
     </div>
