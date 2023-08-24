@@ -1,5 +1,5 @@
 import React from "react";
-import "./brotherCard.css";
+import "../../../style/brotherCard.css";
 import { GrClose } from "react-icons/gr";
 import responses from "../../../activeData/info/responses.json";
 
@@ -14,7 +14,6 @@ const BrotherCard = ({ name }) => {
   const convertedName = name.replace(/(\b\w{1})(\w*\s*)/, "$1") + ".webp";
   const imagePath = require(`../../../activeData/portraits/${convertedName}`);
 
-  console.log(name);
   return (
     <div className="card">
       <div className="cardContainer">

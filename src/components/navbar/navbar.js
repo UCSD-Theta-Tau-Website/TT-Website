@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink as Link } from "react-router-dom";
-import "./navbar.css";
+import "../../style/navbar.css";
 import jaqueminotBorder from "../../images/jaqueminotBorder.webp";
 
 const Navbar = () => {

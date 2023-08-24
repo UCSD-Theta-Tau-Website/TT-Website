@@ -1,5 +1,5 @@
 import React from "react";
-import "./brothers.css";
+import "../../style/brothers.css";
 
 import BrotherCard from "./brotherCard/brotherCard";
 
