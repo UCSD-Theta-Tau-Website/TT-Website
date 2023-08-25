@@ -7,7 +7,6 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbarContainer">
-        {/* <div className="leftNavbar"> */}
         <Link to="/" className="leftNavbar">
           <div className="imgContainer">
             <img src={jaqueminotBorder} alt="jaqueminot" />
@@ -17,7 +16,6 @@ const Navbar = () => {
             <h5>Epsilon Delta Chapter</h5>
           </div>
         </Link>
-        {/* </div> */}
         <div className="rightNavbar">
           <Link to="/about">About Us</Link>
           <Link to="/rush">Rush</Link>
