@@ -5,15 +5,15 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  /* background-color: rgba(250, 249, 246, 0.8); */
   background-color: #faf9f6;
-  box-shadow: 0 0 10px rgb(0 0 0 /10%);
+  box-shadow: 0 0 30px rgb(0 0 0 /50%);
+  font-family: "Inter", sans-serif;
 }
 
 .navbarContainer {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
   z-index: 10;
   width: 100%;
   padding: 0 50px;
@@ -22,36 +22,47 @@
 
 .navbarContainer a {
   text-decoration: none;
-  color: black;
   font-size: 150%;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .leftNavbar {
   display: flex;
-  align-items: center;
-  /* width: 50px; */
-}
-
-.leftNavbar #logo {
-  /* background-color: blue; */
-  display: flex;
+  font-family: "Abhaya Libre", serif;
+  color: #891a1f;
   align-items: center;
 }
 
 .imgContainer {
-  width: 50px;
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
 }
 
 .leftNavbar img {
+  width: 60px;
   max-width: 100%;
   max-height: 100%;
   height: auto;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.textContainer h3 {
+  font-size: 35px;
+  margin-bottom: -10px;
 }
 
 .rightNavbar {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.rightNavbar a {
+  color: black;
 }
