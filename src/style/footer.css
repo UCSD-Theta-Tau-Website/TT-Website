@@ -1,5 +1,6 @@
 .footer {
-  bottom: 0;
+  margin-bottom: 0vw;
+  /* margin-top:50vw; */
   width: 100%;
   background-color: #faf9f6;
 }

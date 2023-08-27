@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -54,4 +56,29 @@
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.navbarHeader{
+  position: inherit;
+  margin-left: 5px;
+}
+
+.leftNavbar h3{
+  font-family: 'Abhaya Libre', sans-serif;
+  color: #891A1F;
+  font-weight: 800;
+  margin-top: -5px;
+}
+
+.leftNavbar h4{
+  font-family: 'Abhaya Libre', sans-serif;
+  position: relative;
+  margin-top: -7px;
+  color: #891A1F;
+  font-weight: 800;
+  font-size: 1vw;
+}
+
+.rightNavbar :link{
+  font-size: 1.5vw;
 }

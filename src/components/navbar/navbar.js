@@ -12,13 +12,18 @@ const Navbar = () => {
             <div className="imgContainer">
               <img src={jaqueminotBorder} alt="jaqueminot" />
             </div>
-            <h3>Theta Tau</h3>
+            <div className="navbarHeader">
+              <h3>THETA TAU</h3>
+              <h4>Epsilon Delta Chapter</h4>
+            </div>
+            
           </Link>
         </div>
         <div className="rightNavbar">
           <Link to="/about">About Us</Link>
           <Link to="/rush">Rush</Link>
           <Link to="/brothers">Brothers</Link>
+          <Link to="/gallery">Gallery</Link>
         </div>
       </div>
     </div>
