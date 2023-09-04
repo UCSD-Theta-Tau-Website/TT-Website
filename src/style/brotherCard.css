@@ -86,7 +86,7 @@ h2 {
   overflow: auto;
 }
 
-#close {
+#closeCard {
   cursor: pointer;
   position: absolute;
   top: 20px;
@@ -98,7 +98,7 @@ h2 {
   fill: #212427;
 }
 
-#close:hover {
+#closeCard:hover {
   fill: #891a1f;
   transition: 0.2s ease-in-out;
 }

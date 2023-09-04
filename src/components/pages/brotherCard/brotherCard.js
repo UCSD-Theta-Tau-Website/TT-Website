@@ -17,10 +17,10 @@ const BrotherCard = ({ name }) => {
   return (
     <div className="card">
       <div className="cardContainer">
-        <AiOutlineClose id="close" />
+        <AiOutlineClose id="closeCard" />
         <div className="leftCard">
           <div className="portrait">
-            <img src={imagePath}></img>
+            <img src={imagePath} alt="brotherImage"></img>
           </div>
         </div>
         <div className="rightCard">
