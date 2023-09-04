@@ -7,7 +7,6 @@ import About from "./components/pages/about";
 import Brothers from "./components/pages/brothers";
 import Rush from "./components/pages/rush";
 import Gallery from "./components/pages/gallery";
-import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/rush" element={<Rush />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }

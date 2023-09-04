@@ -1,17 +1,16 @@
 import React from "react";
 import "../../style/brothers.css";
+import Footer from "../footer/footer.js";
 
 import BrotherCard from "./brotherCard/brotherCard";
-
-import membershipBanner from "../../images/membershipBanner.webp";
 
 const Brothers = () => {
   return (
     <div className="brothers">
       <div className="banner">
-        <img src={membershipBanner} alt="membershipBanner" />
+        {/* <img src={membershipBanner} alt="membershipBanner" /> */}
         <div className="bannerText">
-          <h1>Meet the Brothers</h1>
+          <h1>OUR BROTHERS</h1>
           <h3>of the Epsilon Delta Chapter</h3>
         </div>
       </div>
@@ -26,6 +25,7 @@ const Brothers = () => {
         {/* <BrotherCard name="Huy Tran"></BrotherCard> */}
         {/* <BrotherCard name="Tiffany Joa"></BrotherCard> */}
       </div>
+      <Footer />
     </div>
   );
 };

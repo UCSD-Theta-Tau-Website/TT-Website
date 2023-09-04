@@ -1,13 +1,17 @@
 .footer {
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #faf9f6;
+  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); */
+  height: 80px;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .footerContainer {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 100%;
   z-index: 10;
   width: 100%;
   padding: 0 50px;
@@ -16,18 +20,52 @@
 
 .footerContainer a {
   text-decoration: none;
-  color: black;
-  font-size: 120%;
-  font-weight: bold;
 }
 
 .leftFooter {
   display: flex;
   align-items: center;
+  font-family: "Abhaya Libre", serif;
+  color: #891a1f;
+}
+
+.leftFooter .imgContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.leftFooter img {
+  width: 3rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.leftFooter .textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.leftFooter .textContainer h3 {
+  font-size: 1.6rem;
+  margin-bottom: -5px;
+}
+
+.leftFooter .textContainer h5 {
+  font-size: 0.9rem;
 }
 
 .rightFooter {
   display: flex;
   align-items: center;
-  gap: 60px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rightFooter a {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #891a1f;
 }

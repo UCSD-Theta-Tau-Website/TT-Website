@@ -16,18 +16,17 @@
 .cardContainer {
   height: 90%;
   width: 90%;
-
-  background-color: #d9d9d9;
+  background-color: #faf9f6;
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 
 .leftCard {
-  width: 28%;
-  background-color: #faf9f6;
+  width: 29%;
+  overflow: hidden;
 }
 
 .portrait {
@@ -46,30 +45,22 @@
   object-fit: cover;
 }
 
-.midCard {
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-
-  width: 53%;
-  background-color: #faf9f6;
-}
-
-.nameSection {
-  margin-bottom: 3%;
+h1,
+h2 {
+  font-family: "Abhaya Libre", serif;
 }
 
 .nameSection h3 {
-  font-size: 1vw;
-  margin-top: 5px;
   font-weight: 300;
-  color: #a0a0a0;
+  color: #b8b8b8;
+  font-size: 1.15vw;
 }
 
 .nameSection h1 {
   color: #891a1f;
-  font-size: 2vw;
+  font-size: 2.5vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .nameSection #pronouns {
@@ -79,7 +70,6 @@
 .responseSection h2 {
   margin-top: 2%;
   margin-bottom: 1%;
-  /* font-size: 1.5rem; */
   font-size: 1.8vw;
   font-weight: 500;
 }
@@ -87,27 +77,13 @@
 .responseSection h3 {
   font-size: 1.15vw;
   font-weight: 300;
+  font-style: italic;
 }
 
 .rightCard {
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  width: 19%;
-}
-
-.rightCard h2 {
-  margin-top: 5%;
-  margin-bottom: 3%;
-  font-size: 1.5vw;
-  font-weight: 500;
-}
-
-.rightCard h3 {
-  font-size: 1vw;
-  font-weight: 300;
-  margin-bottom: 10%;
+  padding: 3%;
+  width: 71%;
+  overflow: auto;
 }
 
 #close {
@@ -115,8 +91,14 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   padding: 0;
   z-index: 1001;
+  fill: #707070;
+  transition: fill 0.5s;
+}
+
+#close:hover {
+  fill: #891a1f;
 }

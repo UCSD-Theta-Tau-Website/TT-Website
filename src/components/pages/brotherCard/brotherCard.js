@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../style/brotherCard.css";
-import { GrClose } from "react-icons/gr";
+import { AiOutlineClose } from "react-icons/ai";
 import responses from "../../../activeData/info/responses.json";
 
 const BrotherCard = ({ name }) => {
@@ -17,39 +17,36 @@ const BrotherCard = ({ name }) => {
   return (
     <div className="card">
       <div className="cardContainer">
-        <GrClose id="close" />
-
+        <AiOutlineClose id="close" />
         <div className="leftCard">
           <div className="portrait">
             <img src={imagePath}></img>
           </div>
         </div>
-
-        <div className="midCard">
+        <div className="rightCard">
           <div className="nameSection">
-            <h3> Brother</h3>
+            <h3>Brother</h3>
             <h1>{name}</h1>
             <h3 id="pronouns">{pronouns}</h3>
           </div>
           <div className="responseSection">
-            <h2> What are your professional goals and aspirations?</h2>
+            <h2>Year</h2>
+            <h3>{graduation}</h3>
+            <h2>Major</h2>
+            <h3>{major}</h3>
+            <h2>What are your professional goals and aspirations?</h2>
             <h3>{career}</h3>
             <h2>
               How has Theta Tau helped you both professionally and personally?
             </h2>
             <h3>{TT}</h3>
-            <h2>What is your favorite memory in Theta Tau?</h2>
+            <h2>What are your favorite memories in Theta Tau?</h2>
             <h3>{memory}</h3>
+            <h2>
+              Tell us about your personal background and any hobbies you have!
+            </h2>
+            <h3>{interests}</h3>
           </div>
-        </div>
-
-        <div className="rightCard">
-          <h2>Year</h2>
-          <h3>{graduation}</h3>
-          <h2>Major</h2>
-          <h3>{major}</h3>
-          <h2>Interests</h2>
-          <h3>{interests}</h3>
         </div>
       </div>
     </div>
