@@ -7,26 +7,18 @@ import {
   faFacebook,
   faInstagram,
   faGithub,
-  faGit,
 } from "@fortawesome/free-brands-svg-icons";
-import "../../style/footer.css";
-import jaqueminotBorder from "../../images/jaqueminotBorder.webp";
+import "../../style/whiteFooter.css";
 
-const Footer = () => {
+const WhiteFooter = () => {
   return (
-    <div className="footer">
+    <div className="whiteFooter">
       <div className="footerContainer">
-        <Link to="/" className="leftFooter">
-          <div className="imgContainer">
-            <img src={jaqueminotBorder} alt="jaqueminot" />
-          </div>
-          <div className="textContainer">
-            <h3>THETA TAU</h3>
-            <h5>Epsilon Delta Chapter</h5>
-          </div>
+        <Link to="/" className="topFooter">
+          THETA TAU © 2018
         </Link>
 
-        <div className="rightFooter">
+        <div className="bottomFooter">
           <a
             href="https://www.facebook.com/thetatau.ucsd/"
             target="_blank"
@@ -69,4 +61,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default WhiteFooter;

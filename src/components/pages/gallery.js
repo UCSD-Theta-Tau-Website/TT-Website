@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/gallery.css";
-import Footer from "../footer/footer.js";
+import WhiteFooter from "../footers/whiteFooter.js";
 
 import gallery1 from "../../images/gallery1.webp";
 import gallery2 from "../../images/gallery2.webp";
@@ -65,7 +65,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <Footer />
+      <WhiteFooter />
     </div>
   );
 };

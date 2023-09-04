@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../footer/footer.js";
+import RedFooter from "../footers/redFooter.js";
 
 const About = () => {
   return (
     <div>
       <h1>About Us Page</h1>
-      <Footer />
+      <RedFooter />
     </div>
   );
 };

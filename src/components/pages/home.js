@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../footer/footer.js";
+import RedFooter from "../footers/redFooter.js";
 
 const Home = () => {
   return (
     <div>
-      <Footer />
+      <RedFooter />
     </div>
   );
 };

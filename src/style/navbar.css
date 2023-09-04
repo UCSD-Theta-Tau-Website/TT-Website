@@ -7,10 +7,7 @@
   z-index: 100;
   background-color: #faf9f6;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-  font-family: "Inter", sans-serif;
   height: 80px;
-  padding-left: 1vw;
-  padding-right: 1vw;
 }
 
 .navbarContainer {
@@ -23,8 +20,8 @@
 
 .navbarContainer a {
   text-decoration: none;
-  font-size: 1.4rem;
-  font-weight: 600;
+  /* font-size: 1.4rem; */
+  /* font-weight: 500; */
 }
 
 .leftNavbar {
@@ -69,4 +66,41 @@
 
 .rightNavbar a {
   color: #212427;
+  font-size: 1.2rem;
+}
+
+#hamburger {
+  fill: #212427;
+  font-size: 3rem;
+  cursor: pointer;
+  display: none;
+}
+
+#hamburger:hover {
+  fill: #891a1f;
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 850px) {
+  #hamburger {
+    display: block;
+  }
+
+  .rightNavbar a {
+    display: none;
+  }
+
+  .leftNavbar .imgContainer {
+    display: none;
+  }
+
+  .leftNavbar h5 {
+    display: none;
+  }
+  .leftNavbar .textContainer h3 {
+    margin-bottom: 0px;
+  }
+  .navbarContainer {
+    padding: 0 30px;
+  }
 }

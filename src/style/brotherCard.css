@@ -95,10 +95,10 @@ h2 {
   height: 25px;
   padding: 0;
   z-index: 1001;
-  fill: #707070;
-  transition: fill 0.5s;
+  fill: #212427;
 }
 
 #close:hover {
   fill: #891a1f;
+  transition: 0.2s ease-in-out;
 }

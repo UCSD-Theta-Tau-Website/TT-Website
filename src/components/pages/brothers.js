@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/brothers.css";
-import Footer from "../footer/footer.js";
+import RedFooter from "../footers/redFooter.js";
 
 import BrotherCard from "./brotherCard/brotherCard";
 
@@ -8,7 +8,6 @@ const Brothers = () => {
   return (
     <div className="brothers">
       <div className="banner">
-        {/* <img src={membershipBanner} alt="membershipBanner" /> */}
         <div className="bannerText">
           <h1>OUR BROTHERS</h1>
           <h3>of the Epsilon Delta Chapter</h3>
@@ -25,7 +24,7 @@ const Brothers = () => {
         {/* <BrotherCard name="Huy Tran"></BrotherCard> */}
         {/* <BrotherCard name="Tiffany Joa"></BrotherCard> */}
       </div>
-      <Footer />
+      <RedFooter />
     </div>
   );
 };

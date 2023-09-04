@@ -3,6 +3,8 @@ import { NavLink as Link } from "react-router-dom";
 import "../../style/navbar.css";
 import jaqueminotBorder from "../../images/jaqueminotBorder.webp";
 
+import { LiaBarsSolid } from "react-icons/lia";
+
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -21,6 +23,7 @@ const Navbar = () => {
           <Link to="/rush">Rush</Link>
           <Link to="/brothers">Brothers</Link>
           <Link to="/gallery">Gallery</Link>
+          <LiaBarsSolid id="hamburger"></LiaBarsSolid>
         </div>
       </div>
     </div>
