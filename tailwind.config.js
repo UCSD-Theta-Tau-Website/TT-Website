@@ -9,6 +9,7 @@ module.exports = {
         '22grad': "url('/src/images/22grad.jpg')",
         'rectangle4': "url('/src/images/rectangle4.jpg')",
         'flower': "url('/src/images/flower.jpg')",
+        'flower2': "url('/src/images/flower2.jpg')",
         'biglitto': "url('/src/images/biglitto.jpg')",
         'biggrass': "url('/src/images/biggrass.jpg')",
         'handshake': "url('/src/images/handshake.jpg')",
