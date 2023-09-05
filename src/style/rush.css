@@ -1,32 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
+.rush {
+  height: 100%;
+  width: 100%;
+}
 .rushBanner {
-    background-color: #891A1F;
+  background-color: #891a1f;
 }
 
-.rushBanner img{
-    width:100%;
-    object-fit: cover;
-    opacity: 0.1;
+.rushBanner img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.1;
 }
 
-.rushBannerText{
-    position: absolute;
-    margin-top: -540px;
-    margin-left: 95px;
-    /* text-align: center; */
-    color: #faf9f6;
-    
+.rushBannerText {
+  position: absolute;
+  margin-top: -540px;
+  margin-left: 95px;
+  /* text-align: center; */
+  color: #faf9f6;
 }
 
-.rushBannerText h1{
-    font-size: 5.2vw;
-    font-family: 'Inter', sans-serif;
+.rushBannerText h1 {
+  font-size: 5.2vw;
 }
 
-.rushBannerText p{
-    font-size: 2vw;
-    margin-top: 25px;
-    width: 480px;
-    font-family: 'Inter', sans-serif;
+.rushBannerText p {
+  font-size: 2vw;
+  margin-top: 25px;
+  width: 480px;
 }

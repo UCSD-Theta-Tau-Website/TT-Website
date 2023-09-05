@@ -1,0 +1,49 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #faf9f6;
+  z-index: 200;
+}
+
+.linkContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.linkContainer a {
+  text-decoration: none;
+  color: #891a1f;
+  font-size: 2rem;
+  font-family: "Abhaya Libre", serif;
+  cursor: pointer;
+}
+
+#closeMenu {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+  padding: 0;
+  z-index: 1001;
+  fill: #212427;
+}
+
+#closeMenu:hover {
+  fill: #891a1f;
+  transition: 0.2s ease-in-out;
+}
+
+.line {
+  width: 60%;
+  background-color: #891a1f;
+  height: 2px;
+}

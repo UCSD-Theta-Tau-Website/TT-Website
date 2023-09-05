@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/rush.css";
-
+import WhiteFooter from "../footers/whiteFooter.js";
 import brothers2021 from "../../images/brothers2021.webp";
 
 const Rush = () => {
@@ -20,6 +20,7 @@ const Rush = () => {
           </p>
         </div>
       </div>
+      <WhiteFooter />
     </div>
   );
 };
