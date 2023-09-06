@@ -4,43 +4,49 @@ import RedFooter from "../footers/redFooter.js";
 
 const About = () => {
   return (
-    <div class="flex flex-col items-center overflow-hidden">
+    <div class="about flex flex-col items-center overflow-hidden">
 
       {/* hero */}
-      <div class="bg-22grad bg-cover bg-center bg-no-repeat h-screen md:h-auto pt-96 md:pt-48 md:pb-80 space-y-2 text-center w-screen text-white flex flex-col items-center">
-        <h1 class="text-8xl md:text-9xl">ABOUT US</h1>
-        <h2 class="text-2xl font-sans italic max-w-xl">Learn more about the Epsilon Delta Chapter of Theta Tau!</h2>
+      {/* <div class="bg-22grad bg-cover bg-center bg-no-repeat h-screen space-y-2 text-center w-screen text-white flex flex-col items-center justify-center pb-36">
+        <h1>ABOUT US</h1>
+        <h2 class="pb-20">Learn more about the Epsilon Delta Chapter of Theta Tau!</h2>
+      </div> */}
+      <div className="banner">
+        <div className="bannerText px-2">
+          <h1>ABOUT US</h1>
+          <h3>Learn more about the Epsilon Delta Chapter of Theta Tau!</h3>
+        </div>
       </div>
 
       {/* our mission */}
       <div class="py-10 w-screen">
         <div class="flex items-center pb-2">
-          <h1 class="text-5xl px-10 text-red-800">Our Mission</h1>
+          <div class="text-5xl px-10 text-red-800">Our Mission</div>
           <div class="grow border-2 border-red-800"></div>
         </div>
         <div class="flex flex-col-reverse items-center md:flex-row pt-8 md:py-8 md:mb-6">
-          <div class="bg-flower2 md:bg-flower bg-cover italic w-full md:w-1/2 px-12 mr-8">
+          <div class="bg-flower2 md:bg-flower bg-cover italic w-full md:w-1/2 px-12 md:mr-8">
             <p class="text-lg md:text-2xl py-12 md:h-96 md:py-96 leading-8 md:leading-10 text-center flex flex-row items-center">Our mission is to develop engineers into socially responsible professionals and leaders of the industry. Our fraternity provides members with unique opportunities for networking, professional development, community service, and lifelong friendships. We are committed to promoting diversity and inclusivity within the engineering community and beyond.</p>
           </div>
-          <div class="bg-rectangle4 bg-cover bg-left w-full h-96 py-96 md:h-auto md:w-1/2 rounded-none md:rounded-l-xl"></div>
+          <div class="bg-rectangle4 bg-cover bg-left w-full h-96 md:py-96 md:w-1/2 rounded-none md:rounded-l-xl"></div>
         </div>
         <div class="grow border-2 border-red-800"></div>
       </div>
 
       {/* huge photo */}
-      <div class="bg-biglitto bg-cover bg-bottom w-screen h-96 py-96"></div>
+      <div class="bg-biglitto bg-cover bg-bottom w-screen h-96 md:py-96"></div>
 
       {/* our history */}
       <div class="py-10 w-screen">
         <div class="flex items-center pb-2">
-          <h1 class="text-5xl px-10 text-red-800">Our History</h1>
+          <div class="text-5xl px-10 text-red-800">Our History</div>
           <div class="grow border-2 border-red-800"></div>
         </div>
         <div class="flex flex-col-reverse items-center md:flex-row pt-8 md:py-8 md:mb-6">
-          <div class="bg-flower2 md:bg-flower bg-cover italic w-full md:w-1/2 px-12 mr-8 h-auto">
+          <div class="bg-flower2 md:bg-flower bg-cover italic w-full md:w-1/2 px-12 md:mr-8 h-auto">
             <p class="text-lg md:text-2xl py-12 md:h-96 md:py-96 leading-8 md:leading-10 text-center py-12 flex flex-row items-center">In the Spring of 2009, several students of UCSD’s Jacobs School of Engineering felt that there was a lack of engineering representation in the Greek community on campus. So, thirteen founding fathers took the first step towards establishing a chapter of the nation’s oldest and largest professional engineering fraternity on the UCSD campus. On November 20th, 2010, UCSD was installed as the Epsilon Delta Chapter of Theta Tau.</p>
           </div>
-          <div class="bg-biggrass bg-cover bg-bottom w-full h-96 py-96 md:h-auto md:w-1/2 md:rounded-l-xl"></div>
+          <div class="bg-biggrass bg-cover bg-center w-full h-96 md:py-96 md:w-1/2 rounded-none md:rounded-l-xl"></div>
         </div>
         <div class="grow border-2 border-red-800"></div>
       </div>
