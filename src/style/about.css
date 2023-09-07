@@ -19,6 +19,7 @@
     background-size: cover;
     background-repeat: none;
     background-position: center;
+    background-attachment: fixed;
   }
   
   .about .bannerText {
@@ -36,6 +37,10 @@
   .about .bannerText h3 {
     font-size: 2vw;
     font-style: italic;
+  }
+
+  .about .body {
+    max-width: 2000px;
   }
   
   @media screen and (max-width: 950px) {
