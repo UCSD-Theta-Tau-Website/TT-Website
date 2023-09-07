@@ -19,6 +19,7 @@
     background-size: cover;
     background-repeat: none;
     background-position: center;
+    background-attachment: fixed;
   }
   
   .about .bannerText {
@@ -46,6 +47,10 @@
     .grid {
       grid-template-columns: 1fr 1fr;
       grid-gap: 2rem;
+    }
+
+    .about .banner {
+      background-attachment: scroll;
     }
 
     .about .bannerText h1 {
