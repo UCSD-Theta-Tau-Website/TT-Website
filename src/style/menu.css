@@ -21,7 +21,7 @@
 .linkContainer a {
   text-decoration: none;
   color: #891a1f;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Abhaya Libre", serif;
   cursor: pointer;
 }
@@ -31,7 +31,8 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 1.8rem;
+  width: 25px;
+  height: 25px;
   padding: 0;
   z-index: 1001;
   fill: #212427;

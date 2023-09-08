@@ -37,12 +37,3 @@
 .brothers .cardsContainer {
   display: flex;
 }
-
-@media screen and (max-width: 950px) {
-  .brothers .bannerText h1 {
-    font-size: 13vw;
-  }
-  .brothers .bannerText h3 {
-    font-size: 4vw;
-  }
-}
