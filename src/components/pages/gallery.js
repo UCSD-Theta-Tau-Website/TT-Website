@@ -27,10 +27,13 @@ import gallery22 from "../../images/gallery22.webp";
 import gallery23 from "../../images/gallery23.webp";
 import gallery24 from "../../images/gallery24.webp";
 
+import galleryBanner from "../../images/galleryBanner.webp";
+
 const Gallery = () => {
   return (
     <div className="gallery">
       <div className="banner">
+        <img src={galleryBanner} alt="galleryBanner"></img>
         <div className="bannerText">
           <h1>GALLERY</h1>
           <h3>Memories from our Brothers</h3>

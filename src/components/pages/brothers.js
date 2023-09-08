@@ -3,11 +3,13 @@ import "../../style/brothers.css";
 import RedFooter from "../footers/redFooter.js";
 
 import BrotherCard from "./brotherCard/brotherCard";
+import membershipBanner from "../../images/membershipBanner.webp";
 
 const Brothers = () => {
   return (
     <div className="brothers">
       <div className="banner">
+        <img src={membershipBanner} alt="membershipBanner"></img>
         <div className="bannerText">
           <h1>OUR BROTHERS</h1>
           <h3>of the Epsilon Delta Chapter</h3>
