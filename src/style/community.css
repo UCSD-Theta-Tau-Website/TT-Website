@@ -1,0 +1,44 @@
+.community {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community-item {
+    flex: 3; /* Each item takes equal space initially */
+    text-align: center;
+    padding: 10px;
+}
+  
+.community-item-large {
+    flex: 2; /* The middle item takes twice the space */
+}
+
+.line {
+    margin: 0 auto; /* Center the line horizontally */
+    width: 3rem;
+    height: 2px; /* Adjust the height of the line as needed */
+    background-color: #000; /* Change the color of the line as needed */
+    bottom: 10px; /* Adjust the position of the line relative to the text */
+  }
+
+  .sideNum {
+    color: rgba(137, 26, 31, 0.75);
+    font-family: Inter;
+    font-style: normal;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .middleNum {
+    padding-top: 3rem;
+    color: #800020;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 12rem;
+    font-weight: 700;
+    line-height: normal;
+  }
