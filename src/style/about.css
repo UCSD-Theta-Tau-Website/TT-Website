@@ -60,3 +60,9 @@
       font-size: 4vw;
     }
   }
+
+  @media screen and (min-width: 2000px) {
+    .bg-rectangle4, .bg-biglitto, .bg-biggrass {
+      border-radius: 20px;
+    }
+  }
