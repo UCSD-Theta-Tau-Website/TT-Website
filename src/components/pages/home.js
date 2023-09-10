@@ -8,8 +8,6 @@ import PlacesWorked from "./homeComponents/placesWorked";
 import BigLittle from "./homeComponents/bigLittle";
 import Alumni from "./homeComponents/alumni";
 
-
-
 const Home = () => {
   return (
     <div className="wrapper">

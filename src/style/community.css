@@ -4,10 +4,52 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+
+.garnet-1,
+.garnet-2,
+.garnet-3 {
+    position: absolute; /* Position the garnet divs absolutely */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.garnet-1 {
+    bottom: 29%;
+    left: 9%;
+    width: 450px;
+    height: 400px;
+    background-image: url('../images/garnet.webp');
+    transform: rotate(0deg);
+    z-index: -1; /* Set a lower z-index to keep it in the background */
+
+}
+
+.garnet-2 {
+    left: 63%;
+    top: 56%;
+    width: 250px;
+    height: 225px;
+    background-image: url('../images/garnet.webp');
+    background-position: 90% 95%;
+    transform: rotate(130deg);
+    z-index: -1;
+
+}
+
+.garnet-3 {
+    left: 80%;
+    top: 10%;
+    width: 250px;
+    height: 225px;
+    background-image: url('../images/garnet.webp');
+    transform: rotate(60deg);
+    z-index: -1;
 }
 
 .community-item {
-    flex: 3; /* Each item takes equal space initially */
+    flex: 1; /* Each item takes equal space initially */
     text-align: center;
     padding: 10px;
 }
@@ -17,28 +59,60 @@
 }
 
 .line {
-    margin: 0 auto; /* Center the line horizontally */
-    width: 3rem;
-    height: 2px; /* Adjust the height of the line as needed */
-    background-color: #000; /* Change the color of the line as needed */
-    bottom: 10px; /* Adjust the position of the line relative to the text */
+    margin: 0 auto;
+    width: 13rem;
+    height: 2px;
+    background-color: #800020;
+    bottom: 10px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
   }
 
-  .sideNum {
+.sideNum {
     color: rgba(137, 26, 31, 0.75);
     font-family: Inter;
     font-style: normal;
     font-size: 10rem;
     font-weight: 700;
     line-height: normal;
-  }
+}
 
-  .middleNum {
-    padding-top: 3rem;
+.middleNum {
+    padding-top: 2rem;
     color: #800020;
     font-family: Inter;
     font-style: normal;
     font-size: 12rem;
     font-weight: 700;
     line-height: normal;
-  }
+}
+
+p {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    line-height: normal;
+    color: #800020;
+    font-size: 4rem;
+}
+
+.left {
+    padding-left: 3rem;
+    padding-top: 8rem;
+}
+
+.right {
+    padding-right: 3rem;
+    padding-top: 8rem;
+}
+
+.middle {
+    padding-bottom: 3rem;
+}

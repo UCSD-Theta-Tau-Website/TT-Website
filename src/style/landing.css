@@ -3,16 +3,16 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-position: center bottom; /* Center horizontally, bottom vertically */
+    background-position: center bottom;
     background-repeat: no-repeat;
-    display: flex; /* Add flexbox to center vertically */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .text-container {
-    text-align: center; /* Center the text horizontally */
-    color: white; /* Set text color to white */
+    text-align: center; 
+    color: white; 
     margin-top: -10rem;
 }
   
@@ -38,7 +38,6 @@
 
 .text-container h3 {
     color: #FFF;
-    font-family: Graphik;
     font-size: 2rem;
     font-style: italic;
     font-weight: 500;
