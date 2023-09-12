@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/rush.css";
-
+import WhiteFooter from "../footers/whiteFooter.js";
 import rush_eboard from "../../images/rush_eboard.png";
 import gem from "../../images/gem.png";
 const Rush = () => {
@@ -98,6 +98,7 @@ const Rush = () => {
         </div>
 
       </div>
+      <WhiteFooter />
     </div>
   );
 };

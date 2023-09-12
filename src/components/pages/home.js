@@ -1,14 +1,10 @@
 import React from "react";
-import ConnectButton from "../connectButton/connectButton";
+import RedFooter from "../footers/redFooter.js";
 
 const Home = () => {
   return (
-    <div style={{ display: "inline-flex" }}>
-      <h1>Home Page</h1>
-      <div>
-        <h1>asdlfasklfj</h1>
-        {/* <ConnectButton /> */}
-      </div>
+    <div>
+      <RedFooter />
     </div>
   );
 };
