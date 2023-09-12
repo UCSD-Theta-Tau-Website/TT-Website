@@ -4,7 +4,7 @@
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 9999;
   background-color: #faf9f6;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   height: 80px;
@@ -50,7 +50,7 @@
 
 .leftNavbar .textContainer h3 {
   font-size: 1.6rem;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
 }
 
 .leftNavbar .textContainer h5 {
