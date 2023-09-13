@@ -1,27 +1,23 @@
 import React from "react";
 import "../../style/rush.css";
 import WhiteFooter from "../footers/whiteFooter.js";
-import rush_eboard from "../../images/rush_eboard.png";
+
 import gem from "../../images/gem.png";
+
 const Rush = () => {
   return (
     <div className="rush">
       <div className="rushBanner">
-        {/* <div className="rushBannerImg"> */}
-        <img src={rush_eboard} alt="rush_eboard"></img>
-        {/* </div> */}
-
         <div className="rushBannerText">
           <h1>RUSH</h1>
-          <p>
-            Come out to rush and discover your community!
-          </p>
+          <h3>Come out to rush and discover your community!</h3>
         </div>
       </div>
       <div className="rushTimeline">
         <div className="rushTimelineHeader">
-          <h1>Fall Rush 2023</h1>
+          <div className="text-4xl sm:text-5xl px-10 text-red-800 abhaya">Fall Rush 2023</div>
           <img src={gem} alt="gem"></img>
+          <div className="grow border-2 border-red-800"></div>
         </div>
 
         <div className="rushTimeLineSplit">
@@ -32,10 +28,13 @@ const Rush = () => {
 
               <div className="date">
 
-                <div className="dateBlock">10/9/23</div>
+                <div className="dateBlock">
+                  <h1>10/9/23</h1>
+                </div>
                 <div className="vertLine"> 
                   <h1>INFO NIGHT</h1>
-                
+                  <h3>7 PM | Meet @ Triton Statue</h3>
+                  <p>Come learn about the fraternity and meet the Brothers!</p>
                 </div>
               </div>
 
@@ -43,9 +42,13 @@ const Rush = () => {
               <div className="date">
 
                 
-                <div className="dateBlock">10/10/23</div>
+                <div className="dateBlock">
+                  <h1>10/10/23</h1>
+                </div>
                 <div className="vertLine">
                   <h1>PROFESSIONAL NIGHT</h1>
+                  <h3>7 PM | Meet @ Triton Statue</h3>
+                  <p>Improve your resume and gain insight from our alumni!</p>
                 </div>
                 
 
@@ -55,25 +58,37 @@ const Rush = () => {
 
               <div className="date">
 
-                <div className="dateBlock">10/11/23</div>
+                <div className="dateBlock">
+                  <h1>10/11/23</h1>
+                </div>
                 <div className="vertLine">
                   <h1>ENGINEERING NIGHT</h1>
+                  <h3>7 PM | Meet @ Triton Statue</h3>
+                  <p>Play engineering games with the Brothers!</p>
                 </div>
               </div>
 
               <div className="date">
 
-                <div className="dateBlock">10/12/23</div>
+                <div className="dateBlock">
+                  <h1>10/12/23</h1>
+                </div>
                 <div className="vertLine">
                   <h1>THETA TAU NIGHT</h1>
+                  <h3>TBD</h3>
+                  <p>Event is INVITE ONLY</p>
                 </div>
               </div>
 
                <div className="date">
 
-                <div className="dateBlock">10/13/23</div>
+                <div className="dateBlock">
+                  <h1>10/13/23</h1>
+                </div>
                 <div className="vertLine">
                   <h1>INTERVIEWS</h1>
+                  <h3>TBD</h3>
+                  <p>Interviews are INVITE ONLY</p>
                 </div>
 
 
