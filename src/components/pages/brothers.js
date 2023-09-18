@@ -19,8 +19,8 @@ const Brothers = () => {
       <h1>testing</h1> <h1>testing</h1> <h1>testing</h1> <h1>testing</h1>{" "}
       <h1>testing</h1> <h1>testing</h1> <h1>testing</h1> <h1>testing</h1>{" "}
       <h1>testing</h1>
+      {/* when opening a card scrolling on the brothers component should be disabled */}
       <div className="cardsContainer">
-        {/* this is just for testing and seeing what the member modal looks like */}
         {/* <BrotherCard name="Huy Tran"></BrotherCard> */}
         {/* <BrotherCard name="Tiffany Joa"></BrotherCard> */}
       </div>
