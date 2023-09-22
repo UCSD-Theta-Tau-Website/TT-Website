@@ -2,11 +2,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #faf9f6;
   z-index: 200;
   padding: 0 50px;
+  overflow: auto;
 }
 
 .linkContainer {
@@ -43,7 +44,7 @@
 }
 
 .line {
-  width: 60%;
-  background-color: #891a1f;
-  height: 2px;
+  width: 80%;
+  border: 1px solid #891a1f;
+  border-radius: 15px;
 }

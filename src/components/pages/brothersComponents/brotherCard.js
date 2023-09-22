@@ -18,12 +18,12 @@ const BrotherCard = ({ name }) => {
     <div className="card">
       <div className="cardContainer">
         <AiOutlineClose id="closeCard" />
-        <div className="leftCard">
+        <div className="portraitContainer">
           <div className="portrait">
             <img src={imagePath} alt="brotherImage"></img>
           </div>
         </div>
-        <div className="rightCard">
+        <div className="infoContainer">
           <div className="nameSection">
             <h3>Brother</h3>
             <h1>{name}</h1>

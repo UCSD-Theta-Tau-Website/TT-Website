@@ -1,6 +1,7 @@
 .section {
     width: 80vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -11,10 +12,12 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    padding-bottom: 10px;
 }
 
 .name {
     font-size: 1.5vw;
+    font-family: "Abhaya Libre", serif;
     color: #891A1F;
 }
 
@@ -22,4 +25,13 @@
     background-color: black;
     height: 2px;
     flex-grow: 1;
+}
+
+.grid {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill,minmax(160px, 1fr)); */
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

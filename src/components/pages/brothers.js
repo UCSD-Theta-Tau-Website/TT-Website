@@ -37,6 +37,7 @@ const Brothers = () => {
         <BrotherSection sectionName="Alpha Delta"></BrotherSection>
       </div>
 
+      {/* when opening a card scrolling on the brothers component should be disabled */}
       <div className="cardsContainer">
         {/* this is just for testing and seeing what the member modal looks like */}
         {/* <BrotherCard name="Huy Tran"></BrotherCard> */}

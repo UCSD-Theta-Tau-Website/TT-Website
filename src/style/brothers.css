@@ -46,6 +46,8 @@
 
 .category {
   font-size: 2vw;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
   color: #B8B8B8;
 }
 
@@ -59,7 +61,6 @@
   align-items: center;
   justify-content: center;
 }
-
 
 .brothers .cardsContainer {
   display: flex;

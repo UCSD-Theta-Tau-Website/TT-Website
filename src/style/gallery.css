@@ -77,9 +77,15 @@
   }
 
   .gallery .bannerText h1 {
-    font-size: 20vw;
+    font-size: 22vw;
+    margin-bottom: -7vw;
   }
   .gallery .bannerText h3 {
     font-size: 4vw;
+  }
+
+  .gallery .grid img {
+    width: 100%;
+    height: auto;
   }
 }
