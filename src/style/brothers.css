@@ -18,6 +18,7 @@
 }
 
 .brothers .bannerText {
+  position: absolute;
   margin-top: -10%;
   text-align: center;
   color: #faf9f6;
@@ -39,6 +40,9 @@
 }
 
 @media screen and (max-width: 950px) {
+  .brothers .banner {
+    background-attachment: scroll;
+  }
   .brothers .bannerText h1 {
     font-size: 13vw;
   }
