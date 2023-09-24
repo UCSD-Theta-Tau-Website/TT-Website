@@ -1,78 +1,81 @@
 {
     "Leadership": {
         "Executive Board": {
-            "Regent:Anne Pham": "APham.webp",
-            "Vice Regent:Noah Jaurigue": "NJaurigue.webp",
-            "Scribe:Alvin Xiao": "AXiao.webp",
-            "Treasurer:Gina Roberg": "GRoberg.webp",
-            "Corresponding Secretary:Hieu Pham": "HPham.webp"
+            "Regent:Anne Pham": "AnnePham.webp",
+            "Vice Regent:Noah Jaurigue": "NoahJaurigue.webp",
+            "Scribe:Alvin Xiao": "AlvinXiao.webp",
+            "Treasurer:Gina Roberg": "GinaRoberg.webp",
+            "Corresponding Secretary:Hieu Pham": "HieuPham.webp"
         },
         "Cabinet": {
-            "Standards:Elisabeth Young": "EYoung.webp",
-            "Standards:Nick Cronin": "NCronin.webp",
-            "Standards:Tharun Elenchezhean": "TElenchezhean.webp",
-            "Standards:Kyra Power": "KPower.webp",
-            "Rush Chair:Noelle Lam": "NLam.webp",
-            "Rush Chair:Special Events Chair:Aarya Gupta": "AGupta.webp",
-            "Professional Development Chair:Alex Burns": "ABurns.webp",
-            "Brotherhood Chair:Arnav Khanna": "AKhanna.webp",
-            "Philanthropy Chair:Alina Pham": "APham.webp",
-            "Fundraising Chair:Sruthi Papanasa": "SPapanasa.webp",
-            "Special Events Chair:Emma Wilby": "EWilby.webp",
-            "Improvements Chair:Ryan Wong": "RWong.webp",
-            "External Chair:My Nguyen": "MNguyen.webp",
-            "Academics Chair:Noah Jaurigue": "NJaurigue.webp",
-            "Webmaster Chair:Justin Chiang": "JChiang.webp",
-            "Historian Chair:Mary Vu": "MVu.webp",
-            "DEI Chair:Iso Delgado": "IDelgado.webp"
+            "Standards:Elisabeth Young": "ElisabethYoung.webp",
+            "Standards:Nick Cronin": "NickCronin.webp",
+            "Standards:Tharun Elenchezhean": "TharunElenchezhean.webp",
+            "Standards:Kyra Power": "KyraPower.webp",
+            "Rush Chair:Noelle Lam": "NoelleLam.webp",
+            "Rush Chair:Special Events Chair:Aarya Gupta": "AaryaGupta.webp",
+            "Professional Development Chair:Alex Burns": "AlexBurns.webp",
+            "Brotherhood Chair:Arnav Khanna": "ArnavKhanna.webp",
+            "Philanthropy Chair:Alina Pham": "AlinaPham.webp",
+            "Fundraising Chair:Sruthi Papanasa": "SruthiPapanasa.webp",
+            "Special Events Chair:Emma Wilby": "EmmaWilby.webp",
+            "Improvements Chair:Ryan Wong": "RyanWong.webp",
+            "External Chair:My Nguyen": "MyNguyen.webp",
+            "Academics Chair:Noah Jaurigue": "NoahJaurigue.webp",
+            "Webmaster Chair:Justin Chiang": "JustinChiang.webp",
+            "Historian Chair:Mary Vu": "MaryVu.webp",
+            "DEI Chair:Iso Delgado": "IsoDelgado.webp"
         }
     },
     "Actives": {
         "Alpha Epsilon": {
-            "Anne Pham": "APham.webp"
+            "Anne Pham": "AnnePham.webp"
         },
         "Alpha Delta": {
-            "Aarya Gupta": "AGupta.webp",
-            "Alejandro Olmedo": "AOlmedo.webp",
-            "Alex Burns": "ABurns.webp",
-            "Alina Pham": "APham.webp",
-            "Alvin Xiao": "AXiao.webp",
-            "Bryan Lee": "BLee.webp",
-            "Iso Delgado": "IDelgado.webp",
-            "Justin Chiang": "JChiang.webp",
-            "Mary Vu": "MVu.webp",
-            "My Nguyen": "MNguyen.webp",
-            "Nick Cronin": "NCronin.webp",
-            "Noah Jaurigue": "NJaurigue.webp",
-            "Noelle Lam": "NLam.webp",
-            "Rizwan Syed": "RSyed.webp",
-            "Ryan Wong": "RWong.webp"
+            "Aarya Gupta": "AaryaGupta.webp",
+            "Alejandro Olmedo": "AlejandroOlmedo.webp",
+            "Alex Burns": "AlexBurns.webp",
+            "Alina Pham": "AlinaPham.webp",
+            "Alvin Xiao": "AlvinXiao.webp",
+            "Bryan Lee": "BryanLee.webp",
+            "Iso Delgado": "IsoDelgado.webp",
+            "Justin Chiang": "JustinChiang.webp",
+            "Mary Vu": "MaryVu.webp",
+            "My Nguyen": "MyNguyen.webp",
+            "Nick Cronin": "NickCronin.webp",
+            "Noah Jaurigue": "NoahJaurigue.webp",
+            "Noelle Lam": "NoelleLam.webp",
+            "Rizwan Syed": "RizwanSyed.webp",
+            "Ryan D Wong": "RyanDWong.webp"
         },
         "Alpha Gamma": {
-            "Arnav Khanna": "AKhanna.webp",
-            "Brian Chen": "BChen.webp",
-            "Gina Roberg": "GRoberg.webp",
-            "Hieu Pham": "HPham.webp",
-            "Jisol Park": "JPark.webp",
-            "Kyra Power": "KPower.webp",
-            "Sruthi Papanasa": "SPapanasa.webp"
+            "Arnav Khanna": "ArnavKhanna.webp",
+            "Brian Chen": "BrianChen.webp",
+            "Gina Roberg": "GinaRoberg.webp",
+            "Hieu Pham": "HieuPham.webp",
+            "Jisol Park": "JisolPark.webp",
+            "Kyra Power": "KyraPower.webp",
+            "Sruthi Papanasa": "SruthiPapanasa.webp"
         },
         "Alpha Beta": {
-            "Anne Pham": "APham.webp",
-            "Amogh Manjunath": "AManjunath.webp",
-            "Emma Wilby": "EWilby.webp",
-            "Isabella Duldulao": "IDuldulao.webp",
-            "Jordan Peranginangin": "JPeranginangin.webp",
-            "Natalie Nguyen": "NNguyen.webp"
+            "Anna Liu": "AnnaLiu.webp",
+            "Anne Pham": "AnnePham.webp",
+            "Amogh Manjunath": "AmoghManjunath.webp",
+            "Emma Wilby": "EmmaWilby.webp",
+            "Isabella Duldulao": "IsabellaDuldulao.webp",
+            "Jordan Peranginangin": "JordanPeranginangin.webp",
+            "Natalie Nguyen": "NatalieNguyen.webp",
+            "Ryan Wong": "RyanWong.webp"
         },
         "Psi": {
-            "Alexis Yu": "AYu.webp",
-            "Elisabeth Young": "EYoung.webp",
-            "Tharun Elenchezhean": "TElenchezhean.webp"
+            "Andrew Tan": "AndrewTan.webp",
+            "Alexis Yu": "AlexisYu.webp",
+            "Elisabeth Young": "ElisabethYoung.webp",
+            "Tharun Elenchezhean": "TharunElenchezhean.webp"
         },
         "Chi": {
-            "Henry Liu": "HLiu.webp",
-            "Megan Ma": "MMa.webp"
+            "Henry Liu": "HenryLiu.webp",
+            "Megan Ma": "MeganMa.webp"
         }
     },
     "Alumni": {
