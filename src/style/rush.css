@@ -483,15 +483,33 @@
 
 @media screen and (max-width: 500px) {
 
+  .rushTimelineHeader{
+    margin-top: -5vw;
+    margin-bottom: -5vw;
+  }
+
+  .splitHalf{
+    margin-top: 0vw;
+    width: 50vw;
+  }
   .vertLine{
     border-left: 0.8vw solid #891A1F;
     height: 20vw;
   }
 
+  .vertLine h1{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+    font-size: 3.5vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    color: #891A1F;
+  }
+
   .vertLine h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 2vw;
     font-style: italic;
     padding-left: 4vw;
     color: #989898;
@@ -500,11 +518,32 @@
   .vertLine p{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 2vw;
     padding-left: 4vw;
     color: #000000;
+  }
+
+  .rush .rushProcess{
+    margin-top: 45vw;
   }
 
 
 }
 
+
+@media screen and (max-width: 450px){
+
+  .splitHalf{
+    margin-top: -2vw;
+  }
+
+}
+
+
+@media screen and (max-width: 375px){
+
+  .splitHalf{
+    margin-top: -5vw;
+  }
+
+}
