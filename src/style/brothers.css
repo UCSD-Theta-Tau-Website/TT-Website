@@ -41,7 +41,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2.5vw;
 }
 
 .category {
@@ -49,10 +48,15 @@
   font-family: "Abhaya Libre", serif;
   font-weight: 800;
   color: #B8B8B8;
+  cursor: pointer;
+  border-bottom: 3px solid #B8B8B8;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
 .active {
   color: #891A1F;
+  border-bottom: 3px solid #891A1F;
 }
 
 .sections {
@@ -60,6 +64,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.hide {
+  display: none !important;
 }
 
 .brothers .cardsContainer {

@@ -12,10 +12,9 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    padding-bottom: 10px;
 }
 
-.name {
+.title {
     font-size: 1.5vw;
     font-family: "Abhaya Libre", serif;
     color: #891A1F;
@@ -28,10 +27,51 @@
 }
 
 .grid {
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fill,minmax(160px, 1fr)); */
     width: 75vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+}
+
+.brother {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: left;
+}
+
+.brother img {
+    object-fit: cover;
+    width: 10vw;
+    height: 15vw;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.brother img:hover {
+    opacity: 0.5;
+}
+
+.brother h1 {
+    width: 10vw;
+    font-family: "Abhaya Libre", serif;
+    font-size: 1vw;
+}
+
+.name {
+    color: black;
+}
+
+.positions {
+    line-height: 1vw;
+}
+
+.positions h1 {
+    color: #891A1F;
 }
