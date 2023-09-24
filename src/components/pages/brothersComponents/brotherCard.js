@@ -3,7 +3,7 @@ import "../../../style/brotherCard.css";
 import { AiOutlineClose } from "react-icons/ai";
 import responses from "../../../activeData/info/responses.json";
 
-const BrotherCard = ({ name }) => {
+const BrotherCard = ({ name, image }) => {
   const major = responses[name]["Major"];
   const graduation = responses[name]["Graduation"];
   const career = responses[name]["Career"];
@@ -11,8 +11,8 @@ const BrotherCard = ({ name }) => {
   const memory = responses[name]["Favorite Memory"];
   const interests = responses[name]["Interests"];
   const pronouns = responses[name]["Pronouns"];
-  const convertedName = name.replace(/(\b\w{1})(\w*\s*)/, "$1") + ".webp";
-  const imagePath = require(`../../../activeData/portraits/${convertedName}`);
+  const convertedName = name.replace(" ", "") + ".webp";
+  const imagePath = require(`../../../activeData/portraits/TJoa.webp`);
 
   return (
     <div className="card">

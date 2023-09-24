@@ -1,21 +1,25 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState } from "react";
 import "../../../style/brotherSection.css";
 import categories from "../../../activeData/info/categories.json";
+import BrotherCard from "./brotherCard";
 
 const BrotherSection = ({ categoryName, sectionName }) => {
+  const [displayCard, setDisplayCard] = useState("")
 
   function displayBrothers(category, section) {
     const brothersList = Object.keys(categories[category][section]);
+
     return (
       <div className="grid">
         {brothersList.map((brother) => {
           const imagePath = require(`../../../activeData/portraits/actives/${categories[category][section][brother]}`);
           const position = brother.split(":");
+          const brotherName = position[position.length - 1];
           return (
             <div className="brother">
-              <img src={imagePath} alt={brother}></img>
+              <img src={imagePath} alt={brotherName} onClick={() => setDisplayCard(brotherName)}></img>
               {position.length === 1 && (
-                <><h1 className="name">{brother}</h1></>
+                <><h1 className="name">{brotherName}</h1></>
               )}
               {position.length !== 1 && (
               <>
@@ -24,7 +28,7 @@ const BrotherSection = ({ categoryName, sectionName }) => {
                     <h1>{pos}</h1>
                   ))}
                 </div>
-                <h1 className="name">{position[position.length - 1]}</h1>
+                <h1 className="name">{brotherName}</h1>
               </>
               )}
             </div>   
@@ -44,6 +48,11 @@ const BrotherSection = ({ categoryName, sectionName }) => {
       </div>
       
       {displayBrothers(categoryName, sectionName)}
+
+      {displayCard !== "" && (
+        <><BrotherCard name={"Tiffany Joa"}/></> // for testing
+        // <><BrotherCard name={displayCard} /></>
+      )}
 
     </div>
   )
