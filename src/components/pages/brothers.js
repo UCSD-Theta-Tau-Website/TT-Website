@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "../../style/brothers.css";
 import RedFooter from "../footers/redFooter.js";
 
-import BrotherCard from "./brothersComponents/brotherCard";
-import BrotherSection from "./brothersComponents/brotherSection";
 import BrotherCategory from "./brothersComponents/brotherCategory";
 
 const Brothers = () => {
@@ -27,48 +25,26 @@ const Brothers = () => {
         </div>
       </div>
 
-      <div className="categories">
-        <h1 className="category" onClick={setCategory}>Leadership</h1>
-        <h1 className="category active" onClick={setCategory}>Actives</h1>
-        <h1 className="category" onClick={setCategory}>Alumni</h1>
-      </div>
-
-      <div className="sections">
-        <div className={`section ${brotherCategory === "Leadership" ? "" : "hide"}`} id="leadership">
-          <BrotherCategory categoryName="Leadership"></BrotherCategory>
-        </div>
-        <div className={`section ${brotherCategory === "Actives" ? "" : "hide"}`} id="actives">
-          <BrotherCategory categoryName="Actives"></BrotherCategory>
-        </div>
-        <div className={`section ${brotherCategory === "Alumni" ? "" : "hide"}`} id="alumni">
-          <BrotherCategory categoryName="Alumni"></BrotherCategory>
+      <div className="content">
+        <div className="categories">
+          <h1 className="category" onClick={setCategory}>Leadership</h1>
+          <h1 className="category active" onClick={setCategory}>Actives</h1>
+          <h1 className="category" onClick={setCategory}>Alumni</h1>
         </div>
 
-        {/* {brotherCategory === "Leadership" && (
-          // <><BrotherSection sectionName="Executive Board" />
-          // <BrotherSection sectionName="Cabinet" /></>
-          <><BrotherCategory categoryName="Leadership"></BrotherCategory></>
-        )}
-        {brotherCategory === "Actives" && (
-          // <><BrotherSection sectionName="Alpha Epsilon" />
-          // <BrotherSection sectionName="Alpha Delta" />
-          // <BrotherSection sectionName="Alpha Gamma" />
-          // <BrotherSection sectionName="Alpha Beta" />
-          // <BrotherSection sectionName="Psi" />
-          // <BrotherSection sectionName="Chi" /></>
-          <><BrotherCategory categoryName="Actives"></BrotherCategory></>
-        )}
-        {brotherCategory === "Alumni" && (
-          <><BrotherCategory categoryName="Alumni"></BrotherCategory></>
-        )} */}
+        <div className="brothers-display">
+          <div className={`display-category ${brotherCategory === "Leadership" ? "" : "hide"}`} id="leadership">
+            <BrotherCategory categoryName="Leadership"></BrotherCategory>
+          </div>
+          <div className={`display-category ${brotherCategory === "Actives" ? "" : "hide"}`} id="actives">
+            <BrotherCategory categoryName="Actives"></BrotherCategory>
+          </div>
+          <div className={`display-category ${brotherCategory === "Alumni" ? "" : "hide"}`} id="alumni">
+            <BrotherCategory categoryName="Alumni"></BrotherCategory>
+          </div>
+        </div>
       </div>
 
-      {/* when opening a card scrolling on the brothers component should be disabled */}
-      <div className="cardsContainer">
-        {/* this is just for testing and seeing what the member modal looks like */}
-        {/* <BrotherCard name="Huy Tran"></BrotherCard> */}
-        {/* <BrotherCard name="Tiffany Joa"></BrotherCard> */}
-      </div>
       <RedFooter />
     </div>
   );

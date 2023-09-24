@@ -50,8 +50,7 @@ const BrotherSection = ({ categoryName, sectionName }) => {
       {displayBrothers(categoryName, sectionName)}
 
       {displayCard !== "" && (
-        <><BrotherCard name={"Tiffany Joa"}/></> // for testing
-        // <><BrotherCard name={displayCard} /></>
+        <><BrotherCard name={displayCard} setState={setDisplayCard} /></>
       )}
 
     </div>
