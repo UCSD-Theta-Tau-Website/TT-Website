@@ -21,7 +21,7 @@
 h1 {
     color: #891A1F;
     font-family: Abhaya Libre ExtraBold;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -33,9 +33,18 @@ h1 {
     width: 90%;
     height: 4px;
     background-color: #891A1F;
-    margin-bottom: 3px;
+    margin-bottom: 20px;
     margin-left: 30px;
     margin-top: 20px;
+}
+
+.borderLine2 {
+    width: 100vw;
+    height: 5px;
+    background-color: #800020;
+    bottom: 10px;
+    margin: 0 auto;
+    margin-top: 5vh;
 }
 
 .gridContainer {
@@ -51,9 +60,34 @@ h1 {
 
 .grid-item {
     width: 17vw;
-    height: 14vh;
+    height: 11vh;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+    
+    .title {
+        margin-left: 0;
+    }
+
+    .gridContainer {
+        grid-template-columns: repeat(3, 1fr); /* Repeat items in 3 columns for mobile */
+        margin-left: 0; /* Remove the left margin for mobile */
+        gap: 0 5rem; 
+    }
+
+    .grid-item {
+        width: 15vw;
+        height: 12vh;
+    }
+
+    .borderLine2 {
+        margin-top: 10vh;
+    }
 }

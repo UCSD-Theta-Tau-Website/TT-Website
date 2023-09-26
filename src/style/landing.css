@@ -13,13 +13,14 @@
 .text-container {
     text-align: center; 
     color: white; 
-    margin-top: -10rem;
+    margin-bottom: 5rem;
+    padding-bottom: 12rem;
 }
   
 .text-container h1 {
     color: #FFF;
     text-align: center;
-    font-size: 9rem;
+    font-size: 12vw;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -29,7 +30,7 @@
 .text-container h2 {
     color: #FFF;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -38,7 +39,7 @@
 
 .text-container h3 {
     color: #FFF;
-    font-size: 2rem;
+    font-size: 2vw;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -49,4 +50,28 @@
     display: flex;
     justify-content: center; /* Center horizontally within the h3 itself */
     margin-top: 10px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .landing {
+        background-position: center; /* Adjust background position for smaller screens */
+    }
+
+    .text-container {
+        margin-bottom: 4rem; /* Reduce margin for smaller screens */
+        padding-bottom: 6rem; /* Reduce padding for smaller screens */
+    }
+
+    .text-container h1 {
+        font-size: 4rem; /* Reduce font size for h1 on smaller screens */
+    }
+
+    .text-container h2 {
+        font-size: 1.33rem; /* Reduce font size for h2 on smaller screens */
+    }
+
+    .text-container h3 {
+        font-size: 1rem; /* Reduce font size for h3 on smaller screens */
+    }
 }

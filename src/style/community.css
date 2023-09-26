@@ -1,10 +1,42 @@
 .community {
     width: 100vw;
     height: 100vh;
+}
+
+.community-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center the items horizontally */
     position: relative;
+}
+
+.communityTitle {
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    line-height: normal;
+    color: #800020;
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.communityTitle .line {
+    width: 13rem;
+    height: 2px;
+    background-color: #800020;
+    bottom: 10px;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.borderLine {
+    width: 100vw;
+    height: 5px;
+    background-color: #800020;
+    bottom: 10px;
+    margin: 0 auto;
+    margin-top: 30vh;
 }
 
 .garnet-1,
@@ -16,73 +48,61 @@
 }
 
 .garnet-1 {
-    bottom: 29%;
-    left: 9%;
-    width: 450px;
-    height: 400px;
+    width: 30rem;
+    height: 25rem;
     background-image: url('../images/garnet.webp');
     transform: rotate(0deg);
     z-index: -1; /* Set a lower z-index to keep it in the background */
-
+    left: 15%;
+    margin-top: 20vh; /* Adjust the margin-top value to move it downwards */
 }
 
 .garnet-2 {
     left: 63%;
-    top: 56%;
-    width: 250px;
-    height: 225px;
+    width: 25rem;
+    height: 20rem;
     background-image: url('../images/garnet.webp');
     background-position: 90% 95%;
     transform: rotate(130deg);
     z-index: -1;
+    margin-top: 40vh;
 
 }
 
 .garnet-3 {
     left: 80%;
-    top: 10%;
-    width: 250px;
-    height: 225px;
+    width: 25rem;
+    height: 20rem;
     background-image: url('../images/garnet.webp');
     transform: rotate(60deg);
     z-index: -1;
+    margin-top: 5vh;
 }
 
 .community-item {
     flex: 1; /* Each item takes equal space initially */
     text-align: center;
-    padding: 10px;
 }
   
 .community-item-large {
     flex: 2; /* The middle item takes twice the space */
 }
 
-.line {
-    margin: 0 auto;
-    width: 13rem;
-    height: 2px;
-    background-color: #800020;
-    bottom: 10px;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-  }
-
 .sideNum {
     color: rgba(137, 26, 31, 0.75);
     font-family: Inter;
     font-style: normal;
-    font-size: 10rem;
+    font-size: 10vw;
     font-weight: 700;
     line-height: normal;
 }
 
 .middleNum {
-    padding-top: 2rem;
+    padding-top: 7rem;
     color: #800020;
     font-family: Inter;
     font-style: normal;
-    font-size: 12rem;
+    font-size: 12vw;
     font-weight: 700;
     line-height: normal;
 }
@@ -95,14 +115,6 @@ p {
     font-weight: 700;
 }
 
-h2 {
-    font-family: Abhaya Libre ExtraBold;
-    font-style: normal;
-    line-height: normal;
-    color: #800020;
-    font-size: 4rem;
-}
-
 .left {
     padding-left: 3rem;
     padding-top: 8rem;
@@ -113,6 +125,76 @@ h2 {
     padding-top: 8rem;
 }
 
-.middle {
-    padding-bottom: 3rem;
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .community-inner {
+        flex-direction: column;
+        padding: 2rem; /* Add some spacing between items */
+    }
+
+    .community-item {
+        flex: 1; /* Each item takes full width on smaller screens */
+        margin-bottom: 1rem; /* Reduce spacing between items for smaller screens */
+    }
+
+    .community-item-large {
+        flex: 1; /* Middle item takes full width on smaller screens */
+    }
+
+    .communityTitle {
+        font-size: 2rem;
+        margin-top: 5vh;
+    }
+
+    .communityTitle .line {
+        width: 5rem;
+        margin-top: 2rem;
+    }
+    
+    .sideNum {
+        font-size: 5rem;
+    }
+    .middleNum {
+        font-size: 7rem;
+    }
+
+    .garnet-1 {
+        width: 25rem;
+        height: 20rem;
+        left: -30%;
+        margin-top: 30vh; /* Adjust the margin-top value to move it downwards */
+    }
+
+    .garnet-2 {
+        width: 17rem;
+        height: 12rem;
+        left: 53%;
+        margin-top: 68vh;
+    }
+
+    .garnet-3 {
+        width: 17rem;
+        height: 12rem;
+        left: 60%;
+        margin-top: 10vh;
+    }
+
+    .left {
+        padding-left: 1rem;
+        padding-top: 0rem;
+    }
+    
+    .right {
+        padding-right: 0rem;
+        padding-top: 0rem;
+    }
+
+    .middle {
+        padding-bottom: 7rem;
+    }
+
+    p {
+        font-size: 3vw;
+    }
 }

@@ -48,6 +48,7 @@ const PlacesWorked = () => {
                     </div>
                 ))}
             </div>
+            <div className="borderLine2"></div>
         </div>
     )
 }
