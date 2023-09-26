@@ -3,7 +3,13 @@ import "../../../style/brotherCard.css";
 import { AiOutlineClose } from "react-icons/ai";
 import responses from "../../../activeData/info/responses.json";
 
-const BrotherCard = ({ name, setState }) => {
+const BrotherCard = ({ name, setState, setState }) => {
+  // For testing
+  if (!responses.hasOwnProperty(name)) {
+    alert("No response yet");
+    return;
+  }
+
   // For testing
   if (!responses.hasOwnProperty(name)) {
     alert("No response yet");
