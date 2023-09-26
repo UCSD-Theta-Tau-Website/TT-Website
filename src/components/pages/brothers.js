@@ -16,17 +16,6 @@ const Brothers = () => {
     setBrotherCategory(event.target.innerHTML);
   }
 
-  const [brotherCategory, setBrotherCategory] = useState("Actives");
-
-  function setCategory(event) {
-    const categories = document.querySelectorAll(".category");
-    categories.forEach((category) => {
-      category.classList.remove("active");
-    });
-    event.target.classList.add("active");
-    setBrotherCategory(event.target.innerHTML);
-  }
-
   return (
     <div className="brothers">
       <div className="banner">
