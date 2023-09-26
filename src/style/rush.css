@@ -407,6 +407,9 @@
 
 @media screen and (max-width: 950px) {
 
+  .rush .rushBanner{
+    background-attachment: scroll;
+  }
 
   .rush .rushBannerText h1 {
     font-size: 20vw;
