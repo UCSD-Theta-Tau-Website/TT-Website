@@ -56,16 +56,16 @@
   font-size: 2vw;
   font-family: "Abhaya Libre", serif;
   font-weight: 800;
-  color: #B8B8B8;
+  color: #b8b8b8;
   cursor: pointer;
-  border-bottom: 3px solid #B8B8B8;
+  border-bottom: 3px solid #b8b8b8;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
 }
 
-.active {
-  color: #891A1F;
-  border-bottom: 3px solid #891A1F;
+.brothers .active {
+  color: #891a1f;
+  border-bottom: 3px solid #891a1f;
 }
 
 .display-category {
