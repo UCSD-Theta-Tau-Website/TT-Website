@@ -35,6 +35,51 @@
   font-style: italic;
 }
 
+.content {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.categories {
+  max-width: 2000px;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  width: 15vw;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  color: #b8b8b8;
+  cursor: pointer;
+  border-bottom: 3px solid #b8b8b8;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+.brothers .active {
+  color: #891a1f;
+  border-bottom: 3px solid #891a1f;
+}
+
+.display-category {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none !important;
+}
+
 .brothers .cardsContainer {
   display: flex;
 }
@@ -47,6 +92,16 @@
     font-size: 13vw;
   }
   .brothers .bannerText h3 {
+    font-size: 4vw;
+  }
+
+  .category {
+    width: 25vw;
+    font-size: 4vw;
+  }
+
+  .category {
+    width: 25vw;
     font-size: 4vw;
   }
 }
