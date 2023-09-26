@@ -35,7 +35,14 @@
   font-style: italic;
 }
 
+.content {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .categories {
+  max-width: 2000px;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -44,6 +51,8 @@
 }
 
 .category {
+  width: 15vw;
+  text-align: center;
   font-size: 2vw;
   font-family: "Abhaya Libre", serif;
   font-weight: 800;
@@ -59,7 +68,8 @@
   border-bottom: 3px solid #891A1F;
 }
 
-.sections {
+.display-category {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,6 +92,11 @@
     font-size: 13vw;
   }
   .brothers .bannerText h3 {
+    font-size: 4vw;
+  }
+
+  .category {
+    width: 25vw;
     font-size: 4vw;
   }
 }
