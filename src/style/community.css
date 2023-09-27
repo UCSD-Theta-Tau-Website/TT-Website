@@ -1,13 +1,21 @@
 .community {
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    max-width: 2000px;
+    margin: auto;
 }
 
 .community-inner {
     display: flex;
     align-items: center;
     justify-content: center; /* Center the items horizontally */
+    max-width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .communityTitle {
@@ -15,7 +23,7 @@
     font-style: normal;
     line-height: normal;
     color: #800020;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 700;
     text-align: center;
     margin-top: 10vh;
@@ -27,7 +35,7 @@
     background-color: #800020;
     bottom: 10px;
     margin: 0 auto;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .borderLine {
@@ -98,7 +106,7 @@
 }
 
 .middleNum {
-    padding-top: 7rem;
+    padding-top: 3rem;
     color: #800020;
     font-family: Inter;
     font-style: normal;
@@ -117,12 +125,12 @@ p {
 
 .left {
     padding-left: 3rem;
-    padding-top: 8rem;
+    padding-top: 2rem;
 }
 
 .right {
     padding-right: 3rem;
-    padding-top: 8rem;
+    padding-top: 2rem;
 }
 
 
@@ -170,7 +178,7 @@ p {
         width: 17rem;
         height: 12rem;
         left: 53%;
-        margin-top: 68vh;
+        margin-top: 62vh;
     }
 
     .garnet-3 {
@@ -191,10 +199,22 @@ p {
     }
 
     .middle {
-        padding-bottom: 7rem;
+        padding-bottom: 7vh;
+    }
+
+    .middleNum {
+        padding-top: 7vh;
     }
 
     p {
         font-size: 3vw;
+    }
+
+    .community-item-large {
+        flex: 1.5; /* The middle item takes twice the space */
+    }
+
+    .borderLine {
+        margin-top: 7vh;
     }
 }

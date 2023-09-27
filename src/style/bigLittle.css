@@ -5,4 +5,5 @@
     background-size: cover;
     background-position: center bottom -0%; /* Center horizontally, bottom vertically */
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }

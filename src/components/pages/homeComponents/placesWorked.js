@@ -37,7 +37,7 @@ const PlacesWorked = () => {
 
     return (
         <div className="placesWorked">
-            <div className="title">
+            <div className="placesWorkedTitle">
                 <h1>Where We've Worked</h1>
                 <div className="titleLine"></div>
             </div>

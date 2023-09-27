@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 20px
+    max-width: 2000px;
+    overflow: hidden;
+    margin: auto;
 }
 
 .flower-1,
@@ -46,7 +48,38 @@
     z-index: -1;
 }
 
+.alumniTitle {
+    display: flex;
+    padding-top: 2vh;
+}
+
+.alumniTitle h1 {
+    color: #891A1F;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+    white-space: nowrap;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.titleLine {
+    width: 100vw;
+    height: 4px;
+    background-color: #891A1F;
+    margin-left: 20px;
+    
+}
+
+
 @media (max-width: 768px) {
+    .alumniTitle h1 {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+
     .flower-1 {
         width: 250px;
         height: 200px;
@@ -61,4 +94,6 @@
         width: 125px;
         height: 100px;
     }
+
+    
 }
