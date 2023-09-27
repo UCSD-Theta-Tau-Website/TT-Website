@@ -5,7 +5,7 @@ const AlumniCard = ({ name, role, response, companies, imageUrl }) => {
     return (
         <div className="alumniCard">
             <div className="alumniCardLeft">
-                <img src={imageUrl} alt={name}/>
+                <img  src={require(`../../../activeData/portraits/${imageUrl}.webp`)} alt={name}/>
             </div>
             <div className="alumniCardRight">
                 <div className="alumniName">{name}</div>
@@ -13,7 +13,7 @@ const AlumniCard = ({ name, role, response, companies, imageUrl }) => {
                 <div className="alumniResponse">{response}</div>
                 <div className="alumniCompanies">
                     {companies.map((company, index) => (
-                        <img key={index} src={company.imageUrl} alt={company.name} />
+                        <img key={index}  src={require(`../../../images/companies/${company}.webp`)} alt={company.name} />
                     ))}
                 </div>
             </div>
