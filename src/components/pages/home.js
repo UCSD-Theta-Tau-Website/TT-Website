@@ -7,6 +7,7 @@ import GraduationPic from "./homeComponents/graduationPic";
 import PlacesWorked from "./homeComponents/placesWorked";
 import BigLittle from "./homeComponents/bigLittle";
 import Alumni from "./homeComponents/alumni";
+import RedFooter from './../footers/redFooter';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <PlacesWorked/>
       <BigLittle/>
       <Alumni/>
+      <RedFooter/>
     </div>
   )
 }

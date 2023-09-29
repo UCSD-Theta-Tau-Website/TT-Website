@@ -8,19 +8,25 @@
     margin: 10px auto; /* Center horizontally */
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 60vw;
+    width: 50vw;
     overflow-x: hidden;
+    height: 40vh;
+    overflow-y: hidden;
+
 }
 
 .alumniCardLeft {
     flex: 1;
     padding-right: 16px;
+    position: relative; /* Add this to make the image fill the container */
 }
 
 .alumniCardLeft img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
+    object-fit: cover;
+    height: 40vh;
 }
 
 .alumniCardRight {
