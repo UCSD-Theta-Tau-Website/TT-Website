@@ -86,7 +86,7 @@
 @media (max-width: 768px) {
     .alumniCard {
         width: 70vw;
-        height: 40vh;
+        height: 45vh;
     }
 
     .alumniCardLeft {
@@ -115,7 +115,7 @@
 
     .alumniCompanies img {
         max-width: 3rem; /* Adjust the maximum width for company logos on mobile */
-        max-height: 3rem; /* Adjust the maximum height for company logos on mobile */
+        max-height: 4rem; /* Adjust the maximum height for company logos on mobile */
         margin-right: 8px;
         padding-top: 8px;
     }
