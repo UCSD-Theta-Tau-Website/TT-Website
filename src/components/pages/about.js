@@ -56,20 +56,20 @@ const About = () => {
         <div className="flex flex-col items-center">
           <h1 className="text-4xl sm:text-5xl px-10 text-red-800">Our Pillars</h1>
           <div className="grow border w-36 border-red-800 my-10"></div>
-          <div className="flex flex-col items-center md:flex-row pb-12 mx-12">
-            <div className="flex flex-col items-center pt-8 w-full md:w-1/3">
+          <div className="flex flex-col items-center lg:flex-row pb-12 mx-12">
+            <div className="flex flex-col items-center pt-8 w-full lg:w-1/3">
               <h1 className="text-3xl sm:text-4xl px-10 text-red-800">Brotherhood</h1>
               <div className="border w-36 border-red-800 my-5"></div>
               <p className="text-lg leading-9 text-center px-12 italic">We strive to develop bonds between our brothers that will last a lifetime.</p>
               <div className="bg-handshake bg-cover bg-bottom h-44 w-44"></div>
             </div>
-            <div className="flex flex-col items-center pt-8 w-full md:w-1/3">
+            <div className="flex flex-col items-center pt-8 w-full lg:w-1/3">
               <h1 className="text-3xl sm:text-4xl px-10 text-red-800">Philanthrophy</h1>
               <div className="border w-36 border-red-800 my-5"></div>
               <p className="text-lg leading-9 text-center px-12 italic">We are involved in projects that give back to the community around us.</p>
               <div className="bg-heart bg-cover bg-bottom h-44 w-44"></div>
             </div>
-            <div className="flex flex-col items-center pt-8 w-full md:w-1/3">
+            <div className="flex flex-col items-center pt-8 w-full lg:w-1/3">
               <h1 className="text-3xl sm:text-4xl px-10 text-red-800">Professionalism</h1>
               <div className="grow border w-36 border-red-800 my-5"></div>
               <p className="text-lg leading-9 text-center px-12 italic">We seek to shape one's professional interests to prepare them for their life ahead of college.</p>
