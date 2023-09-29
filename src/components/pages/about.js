@@ -73,7 +73,7 @@ const About = () => {
               <h1 className="text-3xl sm:text-4xl px-10 text-red-800">Professionalism</h1>
               <div className="grow border w-36 border-red-800 my-5"></div>
               <p className="text-lg leading-9 text-center px-12 italic">We seek to shape one's professional interests to prepare them for their life ahead of college.</p>
-              <div className="bg-handshake bg-cover bg-bottom h-44 w-44"></div>
+              <div className="bg-tie bg-cover bg-bottom h-44 w-44"></div>
             </div>
           </div>
         </div>
