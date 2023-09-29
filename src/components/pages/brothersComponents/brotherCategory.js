@@ -7,7 +7,7 @@ const BrotherCategory = ({ categoryName }) => {
   function displaySections(category) {
     const sections = categories[category];
     return Object.keys(sections).map((section) => (
-      <BrotherSection categoryName={category} sectionName={section} />
+      <BrotherSection categoryName={category} sectionName={section} key={section}/>
     ));
   }
 

@@ -1,84 +1,254 @@
 {
     "Leadership": {
-        "Executive Board": {
-            "Regent:Anne Pham": "AnnePham.webp",
-            "Vice Regent:Noah Jaurigue": "NoahJaurigue.webp",
-            "Scribe:Alvin Xiao": "AlvinXiao.webp",
-            "Treasurer:Gina Roberg": "GinaRoberg.webp",
-            "Corresponding Secretary:Hieu Pham": "HieuPham.webp"
-        },
-        "Cabinet": {
-            "Standards:Elisabeth Young": "ElisabethYoung.webp",
-            "Standards:Nick Cronin": "NickCronin.webp",
-            "Standards:Tharun Elenchezhean": "TharunElenchezhean.webp",
-            "Standards:Kyra Power": "KyraPower.webp",
-            "Rush Chair:Noelle Lam": "NoelleLam.webp",
-            "Rush Chair:Special Events Chair:Aarya Gupta": "AaryaGupta.webp",
-            "Professional Development Chair:Alex Burns": "AlexBurns.webp",
-            "Brotherhood Chair:Arnav Khanna": "ArnavKhanna.webp",
-            "Philanthropy Chair:Alina Pham": "AlinaPham.webp",
-            "Fundraising Chair:Sruthi Papanasa": "SruthiPapanasa.webp",
-            "Special Events Chair:Emma Wilby": "EmmaWilby.webp",
-            "Improvements Chair:Ryan D. Wong": "RyanDWong.webp",
-            "External Chair:My Nguyen": "MyNguyen.webp",
-            "Academics Chair:Noah Jaurigue": "NoahJaurigue.webp",
-            "Webmaster Chair:Justin Chiang": "JustinChiang.webp",
-            "Historian Chair:Mary Vu": "MaryVu.webp",
-            "DEI Chair:Iso Delgado": "IsoDelgado.webp"
-        }
+        "Executive Board": [
+            "Regent:Anne Pham",
+            "Vice Regent:Noah Jaurigue",
+            "Scribe:Alvin Xiao",
+            "Treasurer:Gina Roberg",
+            "Corresponding Secretary:Hieu Pham"
+        ],
+        "Cabinet": [
+            "Standards:Elisabeth Young",
+            "Standards:Nick Cronin",
+            "Standards:Tharun Elenchezhean",
+            "Standards:Kyra Power",
+            "Rush Chair:Noelle Lam",
+            "Rush Chair:Special Events Chair:Aarya Gupta",
+            "Professional Development Chair:Alex Burns",
+            "Brotherhood Chair:Arnav Khanna",
+            "Philanthropy Chair:Alina Pham",
+            "Fundraising Chair:Sruthi Papanasa",
+            "Special Events Chair:Emma Wilby",
+            "Improvements Chair:Ryan D. Wong",
+            "External Chair:My Nguyen",
+            "Academics Chair:Noah Jaurigue",
+            "Webmaster Chair:Justin Chiang",
+            "Historian Chair:Mary Vu",
+            "DEI Chair:Iso Delgado"
+        ]
     },
     "Actives": {
-        "Alpha Epsilon": {
-            "Anne Pham": "AnnePham.webp"
-        },
-        "Alpha Delta": {
-            "Aarya Gupta": "AaryaGupta.webp",
-            "Alejandro Olmedo": "AlejandroOlmedo.webp",
-            "Alex Burns": "AlexBurns.webp",
-            "Alina Pham": "AlinaPham.webp",
-            "Alvin Xiao": "AlvinXiao.webp",
-            "Bryan Lee": "BryanLee.webp",
-            "Iso Delgado": "IsoDelgado.webp",
-            "Justin Chiang": "JustinChiang.webp",
-            "Mary Vu": "MaryVu.webp",
-            "My Nguyen": "MyNguyen.webp",
-            "Nick Cronin": "NickCronin.webp",
-            "Noah Jaurigue": "NoahJaurigue.webp",
-            "Noelle Lam": "NoelleLam.webp",
-            "Rizwan Syed": "RizwanSyed.webp",
-            "Ryan D. Wong": "RyanDWong.webp"
-        },
-        "Alpha Gamma": {
-            "Arnav Khanna": "ArnavKhanna.webp",
-            "Brian Chen": "BrianChen.webp",
-            "Gina Roberg": "GinaRoberg.webp",
-            "Hieu Pham": "HieuPham.webp",
-            "Jisol Park": "JisolPark.webp",
-            "Kyra Power": "KyraPower.webp",
-            "Sruthi Papanasa": "SruthiPapanasa.webp"
-        },
-        "Alpha Beta": {
-            "Anna Liu": "AnnaLiu.webp",
-            "Anne Pham": "AnnePham.webp",
-            "Amogh Manjunath": "AmoghManjunath.webp",
-            "Emma Wilby": "EmmaWilby.webp",
-            "Isabella Duldulao": "IsabellaDuldulao.webp",
-            "Jordan Peranginangin": "JordanPeranginangin.webp",
-            "Natalie Nguyen": "NatalieNguyen.webp",
-            "Ryan Wong": "RyanWong.webp"
-        },
-        "Psi": {
-            "Andrew Tan": "AndrewTan.webp",
-            "Alexis Yu": "AlexisYu.webp",
-            "Elisabeth Young": "ElisabethYoung.webp",
-            "Tharun Elenchezhean": "TharunElenchezhean.webp"
-        },
-        "Chi": {
-            "Henry Liu": "HenryLiu.webp",
-            "Megan Ma": "MeganMa.webp"
-        }
+        "Alpha Delta": [
+            "Aarya Gupta",
+            "Alejandro Olmedo",
+            "Alex Burns",
+            "Alina Pham",
+            "Alvin Xiao",
+            "Bryan Lee",
+            "Iso Delgado",
+            "Justin Chiang",
+            "Mary Vu",
+            "My Nguyen",
+            "Nick Cronin",
+            "Noah Jaurigue",
+            "Noelle Lam",
+            "Rizwan Syed",
+            "Ryan D. Wong"
+        ],
+        "Alpha Gamma": [
+            "Arnav Khanna",
+            "Brian Chen",
+            "Gina Roberg",
+            "Hieu Pham",
+            "Jisol Park",
+            "Sruthi Papanasa"
+        ],
+        "Alpha Beta": [
+            "Amogh Manjunath",
+            "Anna Liu",
+            "Anne Pham",
+            "Emma Wilby",
+            "Isabella Duldulao",
+            "Jordan Peranginangin",
+            "Natalie Nguyen",
+            "Ryan Wong"
+        ],
+        "Psi": [
+            "Andrew Tan",
+            "Alexis Yu",
+            "Elisabeth Young",
+            "Tharun Elenchezhean"
+        ],
+        "Chi": [
+            "Henry Liu",
+            "Megan Ma"
+        ]
     },
     "Alumni": {
-        
+        "Alpha Beta": [
+            "Alan Lunardhi",
+            "Leo Hu"
+        ],
+        "Psi": [
+            "Allen Yesin",
+            "Dhanvi Desu",
+            "Gwendolyn Wong",
+            "Rohan Sreedhar",
+            "Si Thu Kuang Set",
+            "Vincent Liang"
+        ],
+        "Chi": [
+            "Angelina Law",
+            "Arnav Taneja",
+            "Dorothy Chou",
+            "Jason Lee",
+            "Julian Yan",
+            "Laurent Lee",
+            "Marie Shimizu",
+            "Philip Emmanuele",
+            "Roy Li",
+            "Steven Gov",
+            "Tiffany Joa",
+            "Tung Doan",
+            "Vivi Doan"
+        ],
+        "Phi": [
+            "Adrian Amora",
+            "Angela Liu",
+            "Carleen Li",
+            "Jenny Hofilena",
+            "Jonathan Ly",
+            "Justin Phan",
+            "Lyhour Lay",
+            "Matias Lee",
+            "Timothy Tran",
+            "Valerie Hon",
+            "Vicki Chen"
+        ],
+        "Upsilon": [
+            "Amy Li",
+            "Austin Le",
+            "BaoBao Laosirihongthong",
+            "Barry Cheung",
+            "Brent Neldner",
+            "Claire Zhang",
+            "Jack Lin",
+            "Jade Tran",
+            "Jordan Luk",
+            "Lulu Zhu",
+            "Ryan Murase"
+        ],
+        "Tau": [
+            "Angelica Jane Tan",
+            "Britney Tran",
+            "Darren Jian",
+            "Esther Zhao",
+            "Everett Lin",
+            "Heather Gan",
+            "Jonathan Song",
+            "Kamran Jahadi",
+            "Kyle Gillaspy",
+            "Neha Pusarla",
+            "Raeek Rahman",
+            "Rick Huynh",
+            "Will Xu"
+        ],
+        "Sigma": [
+            "Christopher Diep",
+            "Clark Phan",
+            "Eric Huynh",
+            "Erin Songwang",
+            "Jocelyn Wei",
+            "Joshua Chao",
+            "Justin Shieh",
+            "Olivia Thai",
+            "Peggy Tran",
+            "Scott Tran",
+            "Sho Kondo",
+            "Simon Kim",
+            "William Tzou"
+        ],
+        "Rho": [
+            "Angie Joung",
+            "Dat Nguyen",
+            "Erick Wilson",
+            "Huy Tran",
+            "Jerry Qing",
+            "Jun Yin",
+            "Justin Lee",
+            "Kakeru Imanaka",
+            "Soyoun Park",
+            "Stacy Kim",
+            "Sydney Huynh"
+        ],
+        "Pi": [
+            "Adam Lin",
+            "Allen Gao",
+            "Ana Dasgupta",
+            "Aston Khor",
+            "Geoffrey Ngo",
+            "Hillary Fan",
+            "Jason Li",
+            "Jeffrey Lee",
+            "John Tayag",
+            "Kevin Huo",
+            "Meghna Satish",
+            "Shangway Hsu",
+            "Stephanie Zhu",
+            "Victoria Tam"
+        ],
+        "Omicron": [
+            "Aamir Rasheed",
+            "Brian Chan",
+            "David Lin",
+            "Fumika Takazawa",
+            "Goutham Marimuthu",
+            "Justin Dulay",
+            "Leng Kouv",
+            "Manwinder Uppal",
+            "Mayuki Sasagawa",
+            "Michelle Lu Galgana",
+            "Rachael Wong",
+            "Wonjae Lee"
+        ],
+        "Xi": [
+            "Brian Lyu",
+            "Esther Park",
+            "Jennie Nguyen",
+            "Marilyn Sun",
+            "Momina Mahmood",
+            "Rishi Dhanaraj",
+            "Shawn Macasieb",
+            "Sherman Yip",
+            "Tyler Ly"
+        ],
+        "Nu": [
+            "Adrian Gutierrez",
+            "Audrey Olson",
+            "Brendon Lim",
+            "Brian Wuerstle",
+            "Chetu Khandavilli",
+            "Daniel Zhang",
+            "Judy Ho"
+        ],
+        "Mu": [
+            "Chelsea Jan",
+            "Crystal Munive",
+            "Daviid Perez",
+            "Jessica Tran",
+            "Michael Wang",
+            "Ming Ming Liu",
+            "Terri Tsai",
+            "Vinesh Nathan"
+        ],
+        "Lambda": [
+            "Alex Tunchez",
+            "Blake Huynh",
+            "Claire Li",
+            "David Deng",
+            "Kaiser Kim",
+            "Wendy Lin"
+        ],
+        "Kappa": [
+            "Amanda Bang",
+            "Claude-Henry Djongoue",
+            "Conway Hsieh",
+            "Jaehee Jung",
+            "Kevin Ngo",
+            "Kyle Zhu",
+            "Olivia Tran",
+            "Peter Neal Barrina",
+            "Richard Yuan"
+        ]
     }
 }
