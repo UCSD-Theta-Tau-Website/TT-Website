@@ -38,32 +38,33 @@ const Brothers = () => {
           </h1>
         </div>
 
-        <div className="brothers-display">
-          <div
-            className={`display-category ${
-              brotherCategory === "Leadership" ? "" : "hide"
-            }`}
-            id="leadership"
-          >
-            <BrotherCategory categoryName="Leadership"></BrotherCategory>
-          </div>
-          <div
-            className={`display-category ${
-              brotherCategory === "Actives" ? "" : "hide"
-            }`}
-            id="actives"
-          >
-            <BrotherCategory categoryName="Actives"></BrotherCategory>
-          </div>
-          <div
-            className={`display-category ${
-              brotherCategory === "Alumni" ? "" : "hide"
-            }`}
-            id="alumni"
-          >
-            <BrotherCategory categoryName="Alumni"></BrotherCategory>
-          </div>
+        <div
+          className={`display-category ${
+            brotherCategory === "Leadership" ? "" : "hide"
+          }`}
+          id="leadership"
+        >
+          <BrotherCategory categoryName="Leadership"></BrotherCategory>
         </div>
+
+        <div
+          className={`display-category ${
+            brotherCategory === "Actives" ? "" : "hide"
+          }`}
+          id="actives"
+        >
+          <BrotherCategory categoryName="Actives"></BrotherCategory>
+        </div>
+
+        <div
+          className={`display-category ${
+            brotherCategory === "Alumni" ? "" : "hide"
+          }`}
+          id="alumni"
+        >
+          <BrotherCategory categoryName="Alumni"></BrotherCategory>
+        </div>
+        
       </div>
 
       <RedFooter />
