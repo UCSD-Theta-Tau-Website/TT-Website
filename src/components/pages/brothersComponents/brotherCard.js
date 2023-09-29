@@ -36,7 +36,7 @@ const BrotherCard = ({ name, setState }) => {
             <h1>{name}</h1>
             <h3 id="pronouns">{pronouns}</h3>
           </div>
-          <div className="brothersection">
+          <div className="responseSection">
             <h2>Year</h2>
             <h3>{graduation}</h3>
             <h2>Major</h2>
