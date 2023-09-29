@@ -1,30 +1,25 @@
 import React from "react";
 import "../../../style/brotherCard.css";
 import { AiOutlineClose } from "react-icons/ai";
-import responses from "../../../activeData/info/responses.json";
+import brothers from "../../../activeData/info/brothers.json";
 
 const BrotherCard = ({ name, setState }) => {
   // For testing
-  if (!responses.hasOwnProperty(name)) {
-    alert("No response yet");
+  if (brothers[name]["Major"] === "") {
+    alert(`No response yet, ${name}`);
+    setState("");
     return;
   }
 
-  // For testing
-  if (!responses.hasOwnProperty(name)) {
-    alert("No response yet");
-    return;
-  }
-
-  const major = responses[name]["Major"];
-  const graduation = responses[name]["Graduation"];
-  const career = responses[name]["Career"];
-  const TT = responses[name]["TT"];
-  const memory = responses[name]["Favorite Memory"];
-  const interests = responses[name]["Interests"];
-  const pronouns = responses[name]["Pronouns"];
-  const convertedName = name.replace(" ", "").replace(".", "") + ".webp";
-  const imagePath = require(`../../../activeData/portraits/actives/${convertedName}`);
+  const major = brothers[name]["Major"];
+  const graduation = brothers[name]["Graduation"];
+  const career = brothers[name]["Career"];
+  const TT = brothers[name]["TT"];
+  const memory = brothers[name]["Favorite Memory"];
+  const interests = brothers[name]["Interests"];
+  const pronouns = brothers[name]["Pronouns"];
+  const webp = brothers[name]["Image"]
+  const imagePath = require(`../../../activeData/portraits/${webp}`);
 
   return (
     <div className="card">
@@ -41,7 +36,7 @@ const BrotherCard = ({ name, setState }) => {
             <h1>{name}</h1>
             <h3 id="pronouns">{pronouns}</h3>
           </div>
-          <div className="responseSection">
+          <div className="brothersection">
             <h2>Year</h2>
             <h3>{graduation}</h3>
             <h2>Major</h2>
