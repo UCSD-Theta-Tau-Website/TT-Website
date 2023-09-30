@@ -1,33 +1,941 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-
 .rush {
+  margin-top: -80px;
   height: 100%;
   width: 100%;
 }
-.rushBanner {
-  background-color: #891a1f;
+
+  
+.rush .rushBanner{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/rush_eboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -20vw;
+  background-attachment: fixed;
 }
 
-.rushBanner img {
-  width: 100%;
-  object-fit: cover;
-  opacity: 0.1;
-}
-
-.rushBannerText {
-  position: absolute;
-  margin-top: -540px;
-  margin-left: 95px;
-  /* text-align: center; */
+.rush .rushBannerText{
+  margin-top: -10%;
+  text-align: center;
   color: #faf9f6;
 }
 
-.rushBannerText h1 {
-  font-size: 5.2vw;
+.rush .rushBannerText h1{
+  font-size: 12vw;
+  font-family: "Abhaya Libre", serif;
+  margin-bottom: -3vw;
 }
 
-.rushBannerText p {
+.rush .rushBannerText h3{
   font-size: 2vw;
-  margin-top: 25px;
-  width: 480px;
+  font-style: italic;
+}
+
+.rushTimeline{
+  position: relative;
+  height: 95vw;
+  margin-bottom: 4vw;
+}
+
+.rushTimelineHeader{
+  display: flex;
+  align-items: center;
+  margin-top: 2vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.grow{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.text-4xl{
+  font-size: 6rem;
+}
+
+.rushTimelineHeader img{
+  position: absolute;
+  width: 15vw;
+  margin-left: 80vw;
+  margin-top: 0vw; /*perhaps change to 1vw*/
+}
+
+.splitHalf{
+  width: 50%;
+  float: left;
+  height: 80vw;
+}
+
+
+
+.timeline .dateBlock{
+  background-color: #891A1F;
+  width: 9vw;
+  border-radius: 1.2vw;
+  text-align: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  
+  margin-left: 4.5vw;
+}
+
+.timeline .dateBlock h1{
+  
+  color: white;
+  font-family: 'Abhaya Libre', sans-serif;
+  font-size: 1.7vw;
+}
+
+
+.rushTimeLineSplit{
+  height: 83vw;
+}
+
+
+.vertLine{
+  border-left: 0.4vw solid #891A1F;
+  height: 12.5vw;
+  margin-left: 8.65vw;
+}
+
+.vertLine h1{
+  font-family: 'Abhaya Libre', sans-serif;
+  font-weight: 800;
+  font-size: 3vw;
+  padding-left: 2vw;
+  color: #891A1F;
+}
+
+.vertLine h3{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 1.2vw;
+  font-style: italic;
+  padding-left: 2vw;
+  color: #989898;
+  padding-bottom: 0.8vw;
+}
+.vertLine p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.2vw;
+  padding-left: 2vw;
+  color: #000000;
+}
+
+
+.rush .splitHalf .rightImage{
+  position: relative;
+  background-image: url("../images/rushimg1.jpg");
+  border-radius: 3vw;
+
+  height: inherit;
+  width: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.rush .splitHalf .rightImage .info h1{
+  padding-left: 7vw;
+  padding-top: 7vw;
+  font-family: 'Abhaya Libre', sans-serif;
+  font-size: 4vw;
+  font-weight: 800;
+  color: white;
+}
+
+.rush .splitHalf .rightImage .info p{
+  font-family: 'Inter', sans-serif;
+  padding-left: 7vw;
+  padding-top: 2vw;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: white;
+  width: 42vw;
+}
+
+.rush .splitHalf .rightImage .info .discordButton{
+  margin-top: 3vw;
+  border-color:  white;
+  border-width: 0.28vw;
+  justify-content: center;
+  margin-left: 7vw;
+  border-radius: 1.2vw;
+  width: 16vw;
+
+}
+
+
+.rush .splitHalf .rightImage .info a{
+
+  padding-left: 1vw;
+  padding-right: 0.5vw;
+  padding-top: 0.8vw;
+  padding-bottom: 0.8vw;
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  color: #faf9f6;
+  cursor: pointer;
+}
+
+.rush .splitHalf .rightImage .info h2{
+  padding-left: 1vw;
+}
+
+
+
+.rush .rushProcess{
+  position: relative;
+  display: block;
+  height: 75vw;
+  width: 100vw;
+  background-image: url("../images/redtexture.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+
+.rush .rushProcess .rushProcessText{
+  position: absolute;
+  top: 5vw;
+  
+  font-family: 'Abhaya Libre', sans-serif;
+  margin-left: 4vw;
+  font-size: 6vw;
+  font-weight: 800;
+  color: white;
+}
+.rush .rushProcess .whiteLine{
+  position: absolute;
+  margin: auto;
+
+  top: 50%;
+  width: 80%;
+  left: 10%;
+ 
+  border-top: 0.2vw white solid;
+  border-bottom: 0.2vw white solid;
+  border-radius: 1vw;
+}
+
+.rush .rushProcess .dot{
+  position: absolute;
+  display: inline-block;
+  height: 1.5vw;
+  width: 1.5vw;
+  
+  top: -0.75vw;
+  background-color: white;
+  border-radius: 50%; 
+  justify-content: center;
+  
+}
+
+
+
+#dot1{
+  left: 12%;
+  justify-content: center;
+}
+#dot2{
+  left: 36.6%;
+  justify-content: center;
+}
+#dot3{
+  right: 36.6%;
+  justify-content: center;
+}
+#dot4{
+  right: 12%;
+  justify-content: center;
+}
+
+.rush .rushProcess .dot .lineText{
+  /* position: relative; */
+  text-align: center;
+}
+
+.rush .rushProcess .dot .lineText .bubble{
+  
+  position: absolute;
+  border: 0.5vw white solid;
+  width: 11vw;
+  background-color: white;
+  border-radius: 1.25vw;
+  padding-top: 0.75vw;
+  padding-bottom: 0.75vw;
+  
+  font-family: 'Abhaya Libre', sans-serif;
+  
+  
+}
+
+.rush .rushProcess .dot .lineText .bubble h1{
+  position: relative;
+  font-size: 1.7vw;
+  color: #891A1F;
+}
+
+.arrow-up {
+  position: absolute;
+  bottom: -4.25vw;
+  left: -0.72vw;
+  width: 0; 
+  height: 0; 
+  border-left: 1.5vw solid transparent;
+  border-right: 1.5vw solid transparent;
+  
+  border-bottom: 2.5vw solid white;
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 3.25vw;
+  left: -0.72vw;
+  width: 0; 
+  height: 0; 
+  border-left: 1.5vw solid transparent;
+  border-right: 1.5vw solid transparent;
+  
+  border-top: 2.5vw solid white;
+}
+
+
+#bubble1{
+  left: -4.75vw;
+  bottom: 5vw;
+}
+
+#bubble2{
+  left: -4.73vw;
+  top: 5vw;
+}
+
+#bubble3{
+  left: -4.75vw;
+  bottom: 5vw;
+}
+
+#bubble4{
+  left: -4.75vw;
+  top: 5vw;
+}
+
+
+.rush .rushProcess .dot .lineText p{
+  
+  position: relative;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: white;
+  line-height: 1.75vw;
+  
+}
+
+#lineText1{
+  right: 4.2vw;
+  top: 4vw;
+  width: 10vw;
+}
+
+#lineText2{
+  right: 10.2vw;
+  bottom: 8vw;
+  width: 22vw;
+}
+
+#lineText3{
+  right: 9.2vw;
+  top: 4vw;
+  width: 20vw;
+}
+
+#lineText4{
+  right: 11.7vw;
+  bottom: 9vw;
+  width: 25vw;
+}
+
+#line2-2{
+
+  display: none;
+}
+
+@media screen and (max-width:1500px){
+  .grow{
+    margin-top: 1.5vw;
+  }
+}
+
+@media screen and (max-width:1300px){
+  .grow{
+    margin-top: 0.5vw; 
+    /* this is jank idk how else to do it atm  */
+  }
+}
+
+
+@media screen and (max-width:1100px) {
+
+  .rush .rushBanner{
+    background-position-y: center;
+  }
+
+  .rushTimeLineSplit{
+    margin-top: 0vh;
+  }
+  .vertLine p{
+    width: 40vw;
+  }
+
+  .grow{
+    margin-top: -0.5vw;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+
+  .rush .rushBanner{
+    background-attachment: scroll;
+  }
+
+  .rush .rushBannerText h1 {
+    font-size: 20vw;
+  }
+  .rush .rushBannerText h3 {
+    font-size: 4vw;
+  }
+ 
+  .rushTimelineHeader{
+    margin-top: -1vw;
+  }
+  .rushTimelineHeader img{
+    position: absolute;
+    width: 18vw;
+    margin-top: 1vw;
+    
+  }
+
+  .text-4xl{
+    font-size: 8vw;
+  }
+
+  .vertLine{
+    margin-top: -1vw;
+    height: 20vw;
+  }
+
+  .vertLine h1{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    color: #891A1F;
+  }
+
+  .vertLine h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    font-style: italic;
+    padding-left: 4vw;
+    color: #989898;
+    padding-bottom: 0.8vw;
+  }
+  .vertLine p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    padding-left: 4vw;
+    color: #000000;
+    width: 70vw;
+  }
+
+  .splitHalf{
+    width: 100%;
+    height: 100%;
+  }
+
+  .rush #splitHalf2{
+    display: none;
+  }
+
+  .rushTimeLineSplit{
+    height: 120vw;
+  }
+
+  .rush .rushProcess{
+    margin-top: 40vw;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .rushTimelineHeader{
+    margin-top: -5vw;
+    margin-bottom: -5vw;
+  }
+
+  .splitHalf{
+    margin-top: 0vw;
+    width: 50vw;
+  }
+  .vertLine{
+    border-left: 0.8vw solid #891A1F;
+    height: 20vw;
+  }
+
+  .vertLine h1{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+    font-size: 4.5vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    color: #891A1F;
+    width: 80vw;
+  }
+
+  .vertLine h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    font-style: italic;
+    padding-left: 4vw;
+    color: #989898;
+    padding-bottom: 0.8vw;
+  }
+  .vertLine p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    padding-left: 4vw;
+    width: 80vw;
+    color: #000000;
+  }
+
+  .rush .rushProcess{
+    margin-top: 45vw;
+  }
+
+
+}
+
+
+@media screen and (max-width: 450px){
+
+  .splitHalf{
+    margin-top: -2vw;
+  }
+
+
+  .vertLine h1{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+    font-size: 6vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    color: #891A1F;
+    width: 80vw;
+  }
+
+  .vertLine h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    font-style: italic;
+    padding-left: 4vw;
+    color: #989898;
+    padding-bottom: 0.8vw;
+  }
+  .vertLine p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    padding-left: 4vw;
+    width: 80vw;
+    color: #000000;
+  }
+
+}
+
+
+@media screen and (max-width: 375px){
+
+  .splitHalf{
+    margin-top: -5vw;
+  }
+
+}
+
+
+/*this is really stupid but it works*/
+@media screen and (min-width: 2000px){
+
+  .rush .body{
+    max-width: 2000px;
+  }
+
+  .rush .rushBanner {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/rush_eboard.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .rush .body .rushTimeline{
+    position: relative;
+    display: inline-block;
+    height: 120rem;
+    margin-bottom: 8rem;
+    /* max-width: 2000px; */
+    align-items: center;
+  }
+
+  .rushTimelineHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    padding-top: 6.2rem;
+    padding-bottom: 6.2rem;
+  }
+
+
+  .text-4xl{
+    font-size: 6rem;
+  }
+
+  .rushTimelineHeader img{
+    position: absolute;
+    display: flex;
+    float: right;
+    width: 20rem;
+    margin-left: 100rem;
+    margin-top: 0rem;
+  }
+
+  .timeline .dateBlock{
+    background-color: #891A1F;
+    width: 11.2rem;
+    height: 4.3rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    
+    margin-left: 5.6rem;
+  }
+
+  .timeline .dateBlock h1{
+  
+    color: white;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 2.1rem;
+  }
+
+  .vertLine{
+    border-left: 0.5rem solid #891A1F;
+    height: 16rem;
+    margin-left: 10.8rem;
+  }
+
+  .vertLine h1{
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+    font-size: 3.75rem;
+    padding-left: 2.5rem;
+    color: #891A1F;
+  }
+
+  .vertLine h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-left: 2.5rem;
+    color: #989898;
+    padding-bottom: 1rem;
+  }
+
+  .vertLine p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+    color: #000000;
+  }
+  
+  .rush .splitHalf .rightImage{
+    position: relative;
+    background-image: url("../images/rushimg1.jpg");
+    border-radius: 2.5rem;
+    height: 101.5rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: scroll;
+  }
+
+  .rush .splitHalf .rightImage .info h1{
+    padding-left: 9rem;
+    padding-top: 9rem;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: white;
+  }
+
+  .rush .splitHalf .rightImage .info p{
+    font-family: 'Inter', sans-serif;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-top: 2.4rem;
+    font-weight: 500;
+    font-size: 1.65rem;
+    color: white;
+    width: 100%;
+  }
+
+  .rush .splitHalf .rightImage .info .discordButton{
+    margin-top: 3.5rem;
+    border-color:  white;
+    border-width: 0.35rem;
+    justify-content: center;
+    margin-left: 9rem;
+    border-radius: 1.5rem;
+    width: 20rem;
+    height: 5.5rem;
+  
+  }
+
+
+  #discordIcon{
+    position: relative;
+
+    font-size: 1.8rem;
+  }
+
+  .rush .splitHalf .rightImage .info a{
+
+    padding-left: 1.25rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #faf9f6;
+    cursor: pointer;
+  }
+
+  .rush .splitHalf .rightImage .info .discordButton h2{
+    font-size: 1.9rem;
+    padding-left: 1.5rem;
+  
+  }
+
+  .rush .rushProcess{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 200px;
+    background-image: url("../images/redtexture.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 2.5rem;
+    height: 90rem;
+    
+  }
+  #line2-1{
+    display: none;
+  }
+  #line2-2{
+
+    display:block;
+    margin-top: -1rem;
+    margin-bottom: -8rem;
+  }
+
+  .rush .splitHalf .rightImage .info h2{
+    padding-left: 1rem;
+  }
+  
+  .grow{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .rush .rushProcess .rushProcessText{
+    position: absolute;
+    top: 4.3rem;
+    
+    font-family: 'Abhaya Libre', sans-serif;
+    margin-left: 5rem;
+    font-size: 7.5rem;
+    font-weight: 800;
+    color: white;
+  }
+  
+  .rush .rushProcess .whiteLine{
+    position: absolute;
+    margin: auto;
+  
+    top: 50%;
+    width: 80%;
+    left: 10%;
+   
+    border-top: 0.2rem white solid;
+    border-bottom: 0.2rem white solid;
+    border-radius: 5rem;
+  }
+  
+  .rush .rushProcess .dot{
+    position: absolute;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    
+    top: -1rem;
+    background-color: white;
+    border-radius: 50%; 
+    justify-content: center;
+    
+  }
+
+  
+
+
+
+
+  .rush .rushProcess .dot .lineText{
+    text-align: center;
+  }
+  
+  .rush .rushProcess .dot .lineText .bubble{
+    
+    position: absolute;
+    border: 0.5rem white solid;
+    width: 14rem;
+    background-color: white;
+    border-radius: 1.4rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+    font-family: 'Abhaya Libre', sans-serif;
+    
+    
+  }
+  
+  .rush .rushProcess .dot .lineText .bubble h1{
+    position: relative;
+    font-size: 2rem;
+    color: #891A1F;
+  }
+  
+  .arrow-up {
+    position: absolute;
+    bottom: -6.5rem;
+    left: -1.5rem;
+    width: 0; 
+    height: 0; 
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+    
+    border-bottom: 4rem solid white;
+  }
+  
+  .arrow-down {
+    position: absolute;
+    bottom: 4rem;
+    left: -1.5rem;
+    width: 0; 
+    height: 0; 
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+    
+    border-top: 4rem solid white;
+  }
+  
+  
+  #bubble1{
+    left: -6rem;
+    bottom: 7rem;
+  }
+  
+  #bubble2{
+    left: -6rem;
+    top: 7rem;
+  }
+  
+  #bubble3{
+    left: -6rem;
+    bottom: 7rem;
+  }
+  
+  #bubble4{
+    left: -6rem;
+    top: 7rem;
+  }
+  
+  .rush .rushProcess .dot .lineText p{
+  
+    position: relative;
+  
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+    line-height: 3rem;
+    
+  }
+  
+  #lineText1{
+    right: 9rem;
+    top: 4rem;
+    width: 20rem;
+  }
+  
+  #lineText2{
+    right: 13.5rem;
+    bottom: 13rem;
+    width: 30rem;
+  }
+  
+  #lineText3{
+    right: 14rem;
+    top: 4rem;
+    width: 30rem;
+  }
+  
+  #lineText4{
+    right: 14.8rem;
+    bottom: 14rem;
+    width: 32rem;
+  }
+  
+
 }
