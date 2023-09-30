@@ -1,17 +1,9 @@
 .section {
     max-width: 2000px;
     width: 80vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .header {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 10px;
 }
 
@@ -27,10 +19,9 @@
     flex-grow: 1;
 }
 
-.grid {
+.imagegrid {
     max-width: 2000px;
     width: 75vw;
-    display: grid;
     padding-top: 1vw;
     padding-bottom: 2vw;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -38,11 +29,7 @@
 }
 
 .brother {
-    display: flex;
-    flex-direction: column;
     flex: 0 0 20%;
-    align-items: center;
-    text-align: left;
 }
 
 .brother img {
@@ -72,13 +59,10 @@
 }
 
 .name {
-    padding-top: 0.2rem;
     line-height: 1vw;
-    color: black;
 }
 
 .positions {
-    padding-top: 0.2rem;
     line-height: 1vw;
     color: #891A1F;
 }
