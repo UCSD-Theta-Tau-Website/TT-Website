@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../style/brotherCategory.css";
 import categories from "../../../activeData/info/categories.json";
 import BrotherSection from "./brotherSection";
 
@@ -12,7 +11,7 @@ const BrotherCategory = ({ categoryName }) => {
   }
 
   return (
-    <div className="brother-category">{displaySections(categoryName)}</div>
+    <>{displaySections(categoryName)}</>
   );
 };
 

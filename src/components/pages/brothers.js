@@ -17,30 +17,30 @@ const Brothers = () => {
   }
 
   return (
-    <div className="brothers">
-      <div className="banner">
-        <div className="bannerText">
+    <div className="brothers -mt-20 h-full w-full">
+      <div className="banner h-screen w-screen flex justify-center items-center bg-cover bg-center bg-fixed">
+        <div className="bannerText absolute text-center">
           <h1>OUR BROTHERS</h1>
           <h3>of the Epsilon Delta Chapter</h3>
         </div>
       </div>
 
-      <div className="content">
-        <div className="categories">
-          <h1 className="category" onClick={setCategory}>
+      <div className="content w-full">
+        <div className="categories flex flex-row items-center justify-center">
+          <h1 className="category text-center font-extrabold cursor-pointer" onClick={setCategory}>
             Leadership
           </h1>
-          <h1 className="category active" onClick={setCategory}>
+          <h1 className="category active text-center font-extrabold cursor-pointer" onClick={setCategory}>
             Actives
           </h1>
-          <h1 className="category" onClick={setCategory}>
+          <h1 className="category text-center font-extrabold cursor-pointer" onClick={setCategory}>
             Alumni
           </h1>
         </div>
 
         <div
-          className={`display-category ${
-            brotherCategory === "Leadership" ? "" : "hide"
+          className={`w-full flex flex-col items-center justify-center ${
+            brotherCategory === "Leadership" ? "" : "hidden"
           }`}
           id="leadership"
         >
@@ -48,8 +48,8 @@ const Brothers = () => {
         </div>
 
         <div
-          className={`display-category ${
-            brotherCategory === "Actives" ? "" : "hide"
+          className={`w-full flex flex-col items-center justify-center ${
+            brotherCategory === "Actives" ? "" : "hidden"
           }`}
           id="actives"
         >
@@ -57,8 +57,8 @@ const Brothers = () => {
         </div>
 
         <div
-          className={`display-category ${
-            brotherCategory === "Alumni" ? "" : "hide"
+          className={`w-full flex flex-col items-center justify-center ${
+            brotherCategory === "Alumni" ? "" : "hidden"
           }`}
           id="alumni"
         >

@@ -1,26 +1,14 @@
-.brothers {
-  margin-top: -80px;
-  height: 100%;
-  width: 100%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .brothers .banner {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url("../images/membershipBanner.webp");
-  background-size: cover;
   background-repeat: none;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .brothers .bannerText {
-  position: absolute;
   margin-top: -10%;
-  text-align: center;
   color: #faf9f6;
 }
 
@@ -37,27 +25,19 @@
 
 .content {
   max-width: 2000px;
-  width: 100%;
   margin: 0 auto;
 }
 
 .categories {
   max-width: 2000px;
   height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .category {
   width: 15vw;
-  text-align: center;
   font-size: 2vw;
   font-family: "Abhaya Libre", serif;
-  font-weight: 800;
   color: #b8b8b8;
-  cursor: pointer;
   border-bottom: 3px solid #b8b8b8;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
@@ -66,22 +46,6 @@
 .brothers .active {
   color: #891a1f;
   border-bottom: 3px solid #891a1f;
-}
-
-.display-category {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.hide {
-  display: none !important;
-}
-
-.brothers .cardsContainer {
-  display: flex;
 }
 
 @media screen and (max-width: 950px) {
