@@ -4,11 +4,9 @@ import { AiOutlineClose } from "react-icons/ai";
 import brothers from "../../../activeData/info/brothers.json";
 
 const BrotherCard = ({ name, setState }) => {
-  // For testing
-  if (brothers[name]["Major"] === "") {
-    alert(`No response yet, ${name}`);
-    setState("");
-    return;
+  let responded = true;
+  if (brothers[name]["TT"] === "") {
+    responded = false;
   }
 
   const major = brothers[name]["Major"];
@@ -41,7 +39,7 @@ const BrotherCard = ({ name, setState }) => {
             <h3>{graduation}</h3>
             <h2>Major</h2>
             <h3>{major}</h3>
-            <h2>What are your professional goals and aspirations?</h2>
+            {responded && (<><h2>What are your professional goals and aspirations?</h2>
             <h3>{career}</h3>
             <h2>
               How has Theta Tau helped you both professionally and personally?
@@ -52,7 +50,7 @@ const BrotherCard = ({ name, setState }) => {
             <h2>
               Tell us about your personal background and any hobbies you have!
             </h2>
-            <h3>{interests}</h3>
+            <h3>{interests}</h3></>)}
           </div>
         </div>
       </div>
