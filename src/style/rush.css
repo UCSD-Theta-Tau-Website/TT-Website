@@ -1,9 +1,10 @@
 .rush {
   margin-top: -80px;
+  /* margin-top: -2rem; */
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
-
   
 .rush .rushBanner{
   height: 100vh;
@@ -15,7 +16,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: -20vw;
+  /* background-position-y: -20vw; */
   background-attachment: fixed;
 }
 
@@ -38,19 +39,28 @@
 
 .rushTimeline{
   position: relative;
-  height: 95vw;
+  /* height: 114rem; */
+  height: fit-content;
+  /* height: 100%; */
+  /* height: 95vw; */
   margin-bottom: 4vw;
+  /* min-height: 100vh; */
 }
 
 .rushTimelineHeader{
   display: flex;
   align-items: center;
-  margin-top: 2vw;
+  /* margin-top: 2vw;
   padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-bottom: 5vh; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 1rem;
+  /* height: 18vh; */
+  height: 8rem;
 }
 
-.grow{
+.rush .grow{
   margin-top: 2vw;
   margin-bottom: 2vw;
 }
@@ -66,13 +76,27 @@
   margin-top: 0vw; /*perhaps change to 1vw*/
 }
 
-.splitHalf{
+.rush .splitHalf{
   width: 50%;
   float: left;
-  height: 80vw;
+  /* height: 80vw; */
+  height: 100%;
+  /* min-height: 100vh; */
 }
 
 
+.timeline{
+  height: 100%;
+}
+
+.date{
+  /* height: 20rem; */
+  height: 20%;
+  /* height: 20rem; */
+  /* height: 20vh; */
+  /* height: 100%; */
+  padding-right: 2vw;
+}
 
 .timeline .dateBlock{
   background-color: #891A1F;
@@ -94,48 +118,70 @@
 
 
 .rushTimeLineSplit{
-  height: 83vw;
+  /* height: 83vw; */
+  height: 100rem;
+  /* height: inherit; */
+  /* min-height: 100vh; */
+  margin-bottom: 1rem;
 }
 
 
 .vertLine{
   border-left: 0.4vw solid #891A1F;
-  height: 12.5vw;
+  /* height: 12.5vw; */
+  /* min-height: 100%; */
+  /* height: 14rem; */
+  height: 100%;
+  /* max-height: 20rem; */
+  /* height: 15vh; */
   margin-left: 8.65vw;
 }
 
 .vertLine h1{
   font-family: 'Abhaya Libre', sans-serif;
   font-weight: 800;
-  font-size: 3vw;
+  font-size: 2.5rem;
   padding-left: 2vw;
+  padding-top: 1rem;
   color: #891A1F;
+  line-height: 3rem;
 }
 
 .vertLine h3{
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 1.2vw;
+  font-size: 1.5rem;
   font-style: italic;
   padding-left: 2vw;
   color: #989898;
-  padding-bottom: 0.8vw;
+  /* padding-bottom: 0.5rem; */
 }
-.vertLine p{
+.rush .vertLine p{
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 1.2vw;
+  text-align: left;
+  font-weight: 400;
+  /* font-size: 1.2vw; */
+  font-size: 1.4rem;
   padding-left: 2vw;
   color: #000000;
+  line-height: 2rem;
+  width: 96%;
 }
 
+#endVertLine{
+  height: 80%;
+}
 
 .rush .splitHalf .rightImage{
   position: relative;
   background-image: url("../images/rushimg1.jpg");
   border-radius: 3vw;
 
-  height: inherit;
+  /* height: inherit; */
+  /* height: 80rem; */
+  height: 99%;
+  /* height: 100rem; */
+  /* min-height: 85vh; */
   width: 50vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,45 +190,51 @@
 }
 
 .rush .splitHalf .rightImage .info h1{
-  padding-left: 7vw;
-  padding-top: 7vw;
+  padding-left: 7rem;
+  padding-top: 8.5rem;
+  padding-right: 7rem;
   font-family: 'Abhaya Libre', sans-serif;
-  font-size: 4vw;
+  font-size: 5rem;
   font-weight: 800;
   color: white;
+  line-height: 5rem;
 }
 
 .rush .splitHalf .rightImage .info p{
   font-family: 'Inter', sans-serif;
-  padding-left: 7vw;
-  padding-top: 2vw;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2.5rem;
   font-weight: 500;
-  font-size: 1.3vw;
+  font-size: 1.5rem;
+  /* width: 80%; */
   color: white;
-  width: 42vw;
+  /* width: 20vw; */
+  text-align: left;
+  line-height: 2rem;
 }
 
 .rush .splitHalf .rightImage .info .discordButton{
-  margin-top: 3vw;
+  margin-top: 3.5rem;
   border-color:  white;
-  border-width: 0.28vw;
+  border-width: 0.3rem;
   justify-content: center;
-  margin-left: 7vw;
-  border-radius: 1.2vw;
-  width: 16vw;
+  margin-left: 7rem;
+  border-radius: 1.2rem;
+  width: 265px;
 
 }
 
 
 .rush .splitHalf .rightImage .info a{
 
-  padding-left: 1vw;
-  padding-right: 0.5vw;
-  padding-top: 0.8vw;
-  padding-bottom: 0.8vw;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   color: #faf9f6;
   cursor: pointer;
 }
@@ -194,21 +246,24 @@
 
 
 .rush .rushProcess{
+  /* margin-top: 5rem; */
   position: relative;
   display: block;
-  height: 75vw;
+  height: 100vh;
   width: 100vw;
   background-image: url("../images/redtexture.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: scroll;
   
 }
 
 
 .rush .rushProcess .rushProcessText{
-  position: absolute;
+  /* position: absolute; */
   top: 5vw;
+  position: absolute; 
   
   font-family: 'Abhaya Libre', sans-serif;
   margin-left: 4vw;
@@ -342,6 +397,7 @@
   font-size: 1.5vw;
   color: white;
   line-height: 1.75vw;
+  text-align: center;
   
 }
 
@@ -369,10 +425,121 @@
   width: 25vw;
 }
 
+#line2-1{
+  margin-top: 2vw;
+  margin-bottom: 2rem;
+}
+
 #line2-2{
 
   display: none;
 }
+
+
+
+.faq_section{
+  max-width: 2000px;
+  position: relative;
+  /* height: 100%; */
+  /* display: block; */
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  /* flex-direction: column; */
+  /* min-height: 100%; */
+}
+
+.faq_header{
+  
+  /* position: absolute; */
+  /* margin-top: 0px; */
+  width: 100%;
+  /* height: 100%; */
+  /* height: 100px; */
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  /* margin-top: 2vw; */
+  
+  padding-top: 5vh;
+  /* padding-bottom: 5vh; */
+  
+  
+
+}
+
+.faq_header img{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  width: 30rem;
+  transform: rotate(40deg);
+  margin-left: 90rem;
+  margin-top: 0rem; /*perhaps change to 1vw*/
+}
+
+
+.faq_accordion{
+  /* position: relative; */
+  /* width: 80vw; */
+  max-width: 2000px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  
+}
+
+.faq_block{
+  align-items: center;
+  /* width: 80%; */
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+
+.accordionHeader{
+  
+  /* position: absolute; */
+  /* margin-top: 0px; */
+  width: 100%;
+  /* height: 100%; */
+  /* height: 100px; */
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  /* margin-top: 2vw; */
+  
+  padding-top: 3vh;
+  /* padding-bottom: 5vh; */
+  
+  
+
+}
+
+.accordionHeader .text-4xl{
+  font-size: 4rem;
+}
+
+
+
+.faqAnswers{
+  padding-left: 10%;
+  padding-right: 10%;
+  /* font-size: 20px; */
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  /* float: left; */
+  /* text-align: left; */
+}
+
+
+
+/* .text-lg{} */
+
+
+
 
 @media screen and (max-width:1500px){
   .grow{
@@ -397,13 +564,12 @@
   .rushTimeLineSplit{
     margin-top: 0vh;
   }
-  .vertLine p{
-    width: 40vw;
+
+  .rush .vertLine h1{
+    /* margin-top: -1rem; */
+    line-height: 2.5rem;
   }
 
-  .grow{
-    margin-top: -0.5vw;
-  }
 }
 
 
@@ -422,6 +588,7 @@
  
   .rushTimelineHeader{
     margin-top: -1vw;
+    /* padding-top: 0; */
   }
   .rushTimelineHeader img{
     position: absolute;
@@ -434,104 +601,290 @@
     font-size: 8vw;
   }
 
-  .vertLine{
-    margin-top: -1vw;
-    height: 20vw;
+  .date{
+    /* height: 15rem; */
+    /* height: 20%; */
+    /* height: inherit; */
+    height: fit-content;
   }
 
-  .vertLine h1{
+  .timeline .dateBlock{
+    background-color: #891A1F;
+    width: 7rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* height: 2.3rem; */
+    margin-left: 2.5rem;
+  }
+
+  .timeline .dateBlock h1{
+  
+    color: white;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .rush .vertLine{
+    margin-left: 5.8rem;
+    margin-top: -1vw;
+    border-left: 0.3rem solid #891A1F;
+    /* height: 20vw; */
+  }
+
+  .rush .vertLine h1{
     font-family: 'Abhaya Libre', sans-serif;
     font-weight: 800;
-    font-size: 5vw;
-    padding-top: 1vw;
+    font-size: 3rem;
+    padding-top: 2rem;
     padding-left: 4vw;
     color: #891A1F;
+    width: 80%;
   }
 
-  .vertLine h3{
+  .rush .vertLine h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1.5rem;
     font-style: italic;
     padding-left: 4vw;
     color: #989898;
-    padding-bottom: 0.8vw;
+    /* padding-bottom: 0.5rem; */
   }
-  .vertLine p{
+  .rush .vertLine p{
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 2vw;
+    font-weight: 300;
+    font-size: 1.5rem;
     padding-left: 4vw;
     color: #000000;
-    width: 70vw;
+    width: 95%;
+    padding-bottom: 1rem;
   }
 
-  .splitHalf{
+  .rush .splitHalf{
     width: 100%;
     height: 100%;
+    
   }
 
   .rush #splitHalf2{
     display: none;
   }
 
-  .rushTimeLineSplit{
-    height: 120vw;
+  #line2-2{
+    display: block;
+    /* margin-top: 5vw; */
+    margin-bottom: 5vw;
   }
 
-  .rush .rushProcess{
-    margin-top: 40vw;
+  #line2-1{
+    
+    display: none;
+
+    /* display: block;
+    margin-top: 10vw;
+    margin-bottom: 20vw; */
   }
+
+  .rushTimeLineSplit{
+    /* height: 55rem; */
+    /* margin-top: 0vh; */
+    height: fit-content;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .rushTimeline{
+    /* height: 128vw; */
+    /* height: 100%; */
+    /* margin-bottom: 4rem; */
+  }
+  .grow{
+    /* top: 20vw; */
+  }
+  .rush .rushProcess{
+    height: 25rem;
+  }
+
+  .accordionHeader .text-4xl{
+    font-size: 8vw;
+  }
+  
   
 }
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px){
 
   .rushTimelineHeader{
-    margin-top: -5vw;
-    margin-bottom: -5vw;
+    /* margin-top: -1.5rem; */
+    /* margin-bottom: -5vw; */
+  }
+  .rush .timeline{
+    /* margin-top: -2rem; */
+    height: fit-content;
+    /* padding-top: 0; */
   }
 
-  .splitHalf{
+  .rush .splitHalf{
+    height: fit-content;
+  }
+
+  .rushTimeLineSplit{
+    height: fit-content;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .rushTimeline{
+    /* height: fit-content; */
+  }
+
+  .date{
+    /* height: 15rem; */
+    /* height: 20%; */
+  }
+
+  .rush .vertLine{
+    margin-left: 5.3rem;
+    margin-top: -1vw;
+    border-left: 0.3rem solid #891A1F;
+    /* height: 20vw; */
+  }
+
+  .timeline .dateBlock{
+    
+    width: 6rem;
+    /* border-radius: 10rem; */
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* height: 2.3rem; */
+    margin-left: 2.5rem;
+  }
+
+  .timeline .dateBlock h1{
+  
+    color: white;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .rush .vertLine h1{
+    padding-top: 0.75rem;
+    font-size: 2.5rem;
+    width: 95%;
+  }
+  .rush .vertLine h3{
+    font-size: 1.3rem;
+  }
+  .rush .vertLine p{
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .rushTimelineHeader .text-4xl{
+    font-size: 2rem;
+  }
+
+  .faq_section .text-4xl{
+    font-size: 2rem;
+  }
+
+  .rushTimelineHeader{
+    /* margin-top: -1.5rem; */
+    /* margin-bottom: -5vw; */
+  }
+
+  /* .splitHalf{
     margin-top: 0vw;
     width: 50vw;
+  } */
+
+  .date{
+    /* height: 18%; */
   }
-  .vertLine{
-    border-left: 0.8vw solid #891A1F;
-    height: 20vw;
+  .rush .vertLine{
+    /* border-left: 0.8vw solid #891A1F; */
+    /* height: 24vw; */
+    margin-left: 12vw;
+    border-left: 0.75vw solid #891A1F;
   }
 
-  .vertLine h1{
-    font-family: 'Abhaya Libre', sans-serif;
-    font-weight: 800;
-    font-size: 4.5vw;
+  .timeline .dateBlock{
+    margin-left: 5vw;
+    /* height: 5vw; */
+    width: 15vw;
+    /* height: 8vw; */
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+  }
+
+  .timeline .dateBlock h1{
+    font-size: 3vw;
+  }
+
+  .rush .vertLine h1{
+    padding-top: 0.75rem;
+    font-size: 2rem;
+    width: 95%;
+  }
+  /* .vertLine h1{
+
     padding-top: 1vw;
     padding-left: 4vw;
     color: #891A1F;
     width: 80vw;
-  }
+  } */
 
-  .vertLine h3{
+  .rush .vertLine h3{
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 2.5vw;
+    /* font-weight: 500; */
+    font-size: 1rem;
     font-style: italic;
     padding-left: 4vw;
     color: #989898;
     padding-bottom: 0.8vw;
   }
-  .vertLine p{
+  .rush .vertLine p{
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 2.5vw;
+    /* font-weight: 500; */
+    font-size: 1rem;
     padding-left: 4vw;
-    width: 80vw;
+    /* width: 80vw; */
+    width: 95%;
     color: #000000;
   }
 
-  .rush .rushProcess{
-    margin-top: 45vw;
+  /* .rush .rushProcess{
+    margin-top: 22.5rem;
+  } */
+
+  #line2-2{
+    display: block;
+    /* margin-top: 7rem; */
+    margin-bottom: 2rem;
+  }
+
+
+  #line2-1{
+    display: none;
+    /* margin-top: 18rem; */
+    /* margin-bottom: 0rem; */
+    /* margin-bottom: -2rem; */
+  }
+
+  .rushTimeline{
+    /* height: 137vw; */
+  }
+
+  .rushProcess{
+    /* TODO */
+    /* make this vertical */
   }
 
 
@@ -543,43 +896,82 @@
   .splitHalf{
     margin-top: -2vw;
   }
-
-
-  .vertLine h1{
-    font-family: 'Abhaya Libre', sans-serif;
-    font-weight: 800;
-    font-size: 6vw;
-    padding-top: 1vw;
-    padding-left: 4vw;
-    color: #891A1F;
-    width: 80vw;
+  .rush .faqAnswers .body .flex{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
-  .vertLine h3{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 2.5vw;
-    font-style: italic;
-    padding-left: 4vw;
-    color: #989898;
-    padding-bottom: 0.8vw;
-  }
-  .vertLine p{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 2.5vw;
-    padding-left: 4vw;
-    width: 80vw;
-    color: #000000;
+  .rush .faqAnswers .body .text-lg{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
+  .rush .faqAnswers .body .px-5 #rushanswers{
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    /* line-height: 1.5rem; */
+  }
+
+  .rush .vertLine p{
+    /* line-height: 1.5rem; */
+  }
+
+  
+  
+  
+
+  #line2-1{
+    /* margin-top: 13.5rem; */
+    /* margin-bottom: -2rem; */
+  }
+
+  .rush .rushProcess{
+    /* margin-top: 14rem; */
+    /* margin-top: 16rem; */
+  }
+
+
+  .rushTimeLineSplit{
+    /* height: 20rem; */
+    /* height: fit-content;*/
+    /* max-height: fit-content;  */
+    /* height: fit-content;  */
+    /* height: 0px; */
+    /* margin-left: 1000px; */
+    /* vertical-align: top; */
+    /* display: inline-block;  */
+
+
+  }
+
+  .rushTimeline{
+    /* height: 100vh; */
+    /* margin-bottom: -7rem; */
+    /* vertical-align: top; 
+    display: inline-block;  */
+  }
+  
 }
 
 
 @media screen and (max-width: 375px){
 
   .splitHalf{
-    margin-top: -5vw;
+    /* margin-top: -5vw; */
+  }
+
+  #line2-1{
+    margin-top: 11rem;
+    /* margin-bottom: -2rem; */
+  }
+
+  .rush .rushProcess{
+    /* margin-top: 14rem; */
+    /* margin-top: 14rem; */
+  }
+
+  .rushTimeline{
+    /* height: 22rem; */
   }
 
 }
@@ -589,8 +981,32 @@
 @media screen and (min-width: 2000px){
 
   .rush .body{
-    max-width: 2000px;
+    /* max-width: 2000px; */
+    /* align-items: center; */
+    justify-content: center;
+    /* display: flex; */
+    width: 100%;
+    text-align: center;
   }
+
+  .rush .rushTimeline{
+    max-width: 2000px;
+    /* align-items: center; */
+    text-align: left;
+  }
+
+  .rush .faq_section{
+    margin: auto;
+    /* max-width: 2000px; */
+    /* align-items: center; */
+    /* text-align: left; */
+    /* width: 100px; */
+  }
+
+  .rush .faqAnswers .body{
+    text-align: left;
+  }
+
 
   .rush .rushBanner {
     height: 100vh;
@@ -657,7 +1073,7 @@
 
   .vertLine{
     border-left: 0.5rem solid #891A1F;
-    height: 16rem;
+    /* height: 16rem; */
     margin-left: 10.8rem;
   }
 
@@ -679,7 +1095,7 @@
     padding-bottom: 1rem;
   }
 
-  .vertLine p{
+  .rush .vertLine p{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
@@ -754,20 +1170,19 @@
   .rush .splitHalf .rightImage .info .discordButton h2{
     font-size: 1.9rem;
     padding-left: 1.5rem;
-  
   }
 
   .rush .rushProcess{
-    position: relative;
+    /* position: relative;
     display: block;
-    width: 100%;
+    width: 100vw;
     margin-top: 200px;
     background-image: url("../images/redtexture.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     border-radius: 2.5rem;
-    height: 90rem;
+    height: 90rem; */
     
   }
   #line2-1{
