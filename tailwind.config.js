@@ -16,6 +16,9 @@ module.exports = {
         'heart': "url('/src/images/heart.jpg')",
         'tie': "url('/src/images/tie.jpg')",
       },
+      screens: {
+        '3xl': '2000px',
+      }
     },
   },
   plugins: [],
