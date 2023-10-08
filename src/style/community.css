@@ -6,6 +6,7 @@
     overflow: hidden;
     position: relative;
     max-width: 2000px;
+    margin-top: -80px;
     margin: auto;
 }
 
