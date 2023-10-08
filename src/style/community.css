@@ -98,7 +98,6 @@
 
 .sideNum {
     color: rgba(137, 26, 31, 0.75);
-    font-family: Inter;
     font-style: normal;
     font-size: 10vw;
     font-weight: 700;
@@ -108,7 +107,6 @@
 .middleNum {
     padding-top: 3rem;
     color: #800020;
-    font-family: Inter;
     font-style: normal;
     font-size: 12vw;
     font-weight: 700;
@@ -117,7 +115,6 @@
 
 p {
     text-align: center;
-    font-family: Inter;
     font-style: normal;
     line-height: normal;
     font-weight: 700;
