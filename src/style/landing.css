@@ -19,7 +19,7 @@
 .text-container {
     text-align: center; 
     color: white; 
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
 }
   
 .text-container h1 {
@@ -69,14 +69,14 @@
     }
 
     .text-container h1 {
-        font-size: 4rem; /* Reduce font size for h1 on smaller screens */
+        font-size: 15vw; /* Reduce font size for h1 on smaller screens */
     }
 
     .text-container h2 {
-        font-size: 1.33rem; /* Reduce font size for h2 on smaller screens */
+        font-size: 5vw; /* Reduce font size for h2 on smaller screens */
     }
 
     .text-container h3 {
-        font-size: 1rem; /* Reduce font size for h3 on smaller screens */
+        font-size: 4vw; /* Reduce font size for h3 on smaller screens */
     }
 }

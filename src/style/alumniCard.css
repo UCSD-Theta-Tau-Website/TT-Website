@@ -39,7 +39,7 @@
 }
 
 .alumniName {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     color: #000;
     font-family: Abhaya Libre ExtraBold;
@@ -52,7 +52,7 @@
 
 .alumniRole {
     color: #D9D9D9;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 600;
     line-height: normal;
@@ -63,7 +63,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
@@ -79,7 +79,17 @@
     max-height: 5rem;
     margin-right: 8px;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .alumniResponse {
+        font-size: 14px;
+    }
+
+    .alumniRole {
+        font-size: 14px;
+    }
 }
 
 /* Media query for smaller screens */

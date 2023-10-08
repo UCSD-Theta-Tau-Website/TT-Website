@@ -1,6 +1,6 @@
 .placesWorked {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -42,26 +42,27 @@
     width: 100vw;
     height: 5px;
     background-color: #800020;
-    bottom: 10px;
+    bottom: 5px;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 0vh;
 }
 
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 2rem 6rem;
     max-height: 80vh;
     align-items: center;
     justify-content: center;
-    margin: 0 auto; /* Center horizontally */
-    margin-left: 1rem;
-    padding: 20px;
+    margin: 2rem auto; /* Center horizontally */
+    padding-bottom: 3rem;
 }
 
 .grid-item {
     width: 15vw;
     height: 11vh;
+    width: 10rem;
+    height: 9vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -74,7 +75,56 @@
     object-fit: contain; /* Scale image to fit within the container */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 2200px) {
+    .grid-item {
+        width: 15rem;
+        height: 9rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gridContainer {
+        gap: 0 5rem; 
+    }
+}
+
+@media (max-width: 1150px) {
+    .placesWorkedTitle h1 {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+    
+    .placesWorkedTitle {
+        margin-left: 0;
+    }
+
+    .gridContainer {
+        grid-template-columns: repeat(4, 1fr); /* Repeat items in 3 columns for mobile */
+        gap: 0 5rem; 
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .grid-item {
+        width: 6rem;
+        height: 7rem;
+    }
+
+    .titleLine {
+        margin-top: 2vh;
+    }
+
+    .grid-item:nth-child(n+25) {
+        display: none;
+    }
+
+    .borderLine2 {
+        margin-top: 2vh;
+    }
+
+}
+
+@media (max-width: 700px) {
     .placesWorkedTitle h1 {
         font-size: 2rem; /* Reduce font size for smaller screens */
     }
@@ -85,18 +135,13 @@
 
     .gridContainer {
         grid-template-columns: repeat(3, 1fr); /* Repeat items in 3 columns for mobile */
-        margin-left: 0; /* Remove the left margin for mobile */
-        gap: 0 5rem; 
+        gap: 0 3rem; 
         grid-template-rows: repeat(6, auto);
     }
 
     .grid-item {
-        width: 15vw;
-        height: 12vh;
-    }
-
-    .borderLine2 {
-        margin-top: 7vh;
+        width: 4rem;
+        height: 6rem;
     }
 
     .titleLine {
