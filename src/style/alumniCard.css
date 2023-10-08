@@ -79,7 +79,7 @@
     max-height: 5rem;
     margin-right: 8px;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 900px) {
