@@ -1,22 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import "../../style/rush.css";
 import WhiteFooter from "../footers/whiteFooter.js";
-
+import SingleQuestion from "./SingleQuestion";
+import { ttfaq, rushfaq, bidfaq } from "./rushData";
 import gem from "../../images/gem.png";
-import { Button } from "bootstrap";
-import discord from "../../images/discord.svg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faFacebook,
-  faInstagram,
-  faGithub,
   faDiscord
 } from "@fortawesome/free-brands-svg-icons";
-import { faD } from "@fortawesome/free-solid-svg-icons";
+
 
 const Rush = () => {
+  
+  const [tt_questions] = useState(ttfaq);
+  const [rush_questions] = useState(rushfaq)
+  const [bid_questions] = useState(bidfaq)
+
   return (
     <div className="rush flex flex-col items-center">
       <div className="rushBanner">
@@ -99,7 +100,7 @@ const Rush = () => {
                   <div className="dateBlock">
                     <h1>10/13/23</h1>
                   </div>
-                  <div className="vertLine">
+                  <div className="vertLine" id="endVertLine">
                     <h1>INTERVIEWS</h1>
                     <h3>TBD</h3>
                     <p>Invite Only.</p>
@@ -209,7 +210,7 @@ const Rush = () => {
 
             <span className="dot" id="dot4">
               <div className="lineText">
-                <p id="lineText4">Once you accept your bid, you will then begin pledging. Prepare to spend a large amount of time and effort.</p>
+                <p id="lineText4">Once you accept your bid, prepare to spend a large amount of time and effort.</p>
                 <div className="bubble" id="bubble4">
                   <h1>PLEDGE</h1>
                 </div>
@@ -219,6 +220,75 @@ const Rush = () => {
 
 
           </div>
+          
+        </div>
+
+
+
+        <div className="faq_section">
+          <div className="faq_header">
+            <div className="text-4xl sm:text-8xl px-10 text-red-800 abhaya">FAQ</div>
+            <img src={gem} alt="gem"></img>
+            <div className="grow border-2 border-red-800" id="faq_line"></div>
+          </div>
+
+          <div className="faq_accordion">
+
+            <div className="faq_block" id="faqTT">
+
+              <div className="accordionHeader" id="faq_tt_header">
+                <div className="text-4xl sm:text-5xl px-10 text-red-800 abhaya">Theta Tau</div>
+                <div className="grow border-2 border-red-800" id="faq_line"></div>
+              </div>
+              
+              <div className="faqAnswers">
+                {tt_questions.map((question) => (
+                  <SingleQuestion {...question} />
+                ))}
+              </div>
+
+              
+
+            </div>
+
+            <div className="faq_block" id="faqRush">
+              
+            
+              <div className="accordionHeader" id="faq_rush_header">
+                <div className="text-4xl sm:text-5xl px-10 text-red-800 abhaya">Rush</div>
+                <div className="grow border-2 border-red-800" id="faq_line"></div>
+              </div>
+
+              <div className="faqAnswers">
+                {rush_questions.map((question) => (
+                  <SingleQuestion {...question} />
+                ))}
+              </div>
+
+            </div>
+
+            <div className="faq_block" id="faqBid">
+
+              <div className="accordionHeader" id="faq_rush_header">
+                <div className="text-4xl sm:text-5xl px-10 text-red-800 abhaya">Bid</div>
+                <div className="grow border-2 border-red-800" id="faq_line"></div>
+              </div>
+
+              <div className="faqAnswers">
+                {bid_questions.map((question) => (
+                  <SingleQuestion {...question} />
+                ))}
+              </div>
+            </div>
+
+          </div>
+
+         
+
+        </div>
+
+
+        <div className="p-5">
           
         </div>
 
