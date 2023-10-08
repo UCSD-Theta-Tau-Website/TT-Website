@@ -1,6 +1,6 @@
 .alumni {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 80px);
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -74,9 +74,15 @@
     
 }
 
+@media (max-width: 1150px) {
+    .alumniTitle h1 {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+}
+
 
 @media (max-width: 768px) {
-    .alumniTitle h1 {
+    .alumniTitle {
         font-size: 2rem; /* Reduce font size for smaller screens */
     }
 
