@@ -150,7 +150,7 @@
 .rush .splitHalf .rightImage{
   position: relative;
   background-image: url("../images/rushimg1.jpg");
-  border-radius: 3vw;
+  /* border-radius: 3vw; */
   height: 99%;
   width: 50vw;
   background-size: cover;
@@ -220,7 +220,8 @@
 .rush .rushProcess{
   position: relative;
   display: block;
-  height: 100vh;
+  /* height: 100vh; */
+  height: calc(100vh - 80px);
   width: 100vw;
   background-image: url("../images/redtexture.jpeg");
   background-size: cover;
@@ -392,7 +393,7 @@
 
 .rush #lineText4{
   right: 11.7vw;
-  bottom: 8vw;
+  bottom: 8.5vw;
   width: 25vw;
 }
 
@@ -414,6 +415,7 @@
   align-items: center;
   height: 100%;
   width: 100vw;
+  min-height: 100vh;
 }
 
 .rush .faq_header{
@@ -474,6 +476,8 @@
 .footerImage{
   width: 100%;
   height: 40vw;
+  height: calc(50vh - 40px);
+  
   /* max-height: 20vw; */
   background: linear-gradient(90deg, rgba(137, 26, 31, 0.80) 45%, rgba(137, 26, 31, 0) 100%), url("../images/rushfooterimage.jpg");
   background-size: cover;
@@ -487,11 +491,9 @@
   color: white;
   font-family: 'Abhaya Libre', sans-serif;
   font-size:6vw;
-  padding-top: 7vw;
-  padding-left: 10vw;
+  padding-top: 5rem;
+  padding-left: 5rem;
   padding-bottom: 1.5vw;
-  /* top: 50%; */
-  /* padding-right: 20rem; */
   width: 65%;
   line-height: 7vw;
 
@@ -503,7 +505,7 @@
   color: white;
   text-decoration: underline;
   font-size: 1.5vw;
-  padding-left: 10vw;
+  padding-left: 5rem;
 }
 
 @media screen and (max-width:1500px){
@@ -775,7 +777,46 @@
     /* font-size: 1.9rem; */
     /* padding-left: 1.5rem; */
   }
+
+
+  .footerImage{
+    /* width: 100vw; */
+    /* padding-top: 2vh; */
+    padding-bottom: 20rem;
+    
+  }
+  .footerImage h1{
+    color: white;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 4rem;
+    /* font-size: 10vw; */
+    /* padding-top: 15vw;
+    padding-left: 10vw; */
+    /* padding-bottom: 1.5vw; */
+    width: 100vw;
+    /* font-size: 6rem; */
+    /* line-height: 7vw; */
+    /* line-height: 12vw; */
+    padding-left: 8vw;
+    line-height: 4rem;
+    padding-top: 20vw;
   
+  }
+  
+  .footerImage a {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: underline;
+    padding-left: 8vw;
+    font-size: 3vw;
+    /* font-size: 1.5rem; */
+    /* padding-left: 10vw; */
+  }
+  
+  .rush .rushProcessMobile .timeline{
+    height: 30rem;
+    /* height: 70%; */
+  }
 
   
 }
@@ -857,9 +898,10 @@
     width: 4.5rem;
   } */
 
-  /* .rush .rushProcessMobile .timeline{
-    height: 46.5rem;
-  } */
+  .rush .rushProcessMobile .timeline{
+    height: 30rem;
+    /* height: 70%; */
+  }
 
   .rush .rushProcessMobile .timeline .dateBlock h1{
     /* background-color: #faf9f6; */
@@ -1469,5 +1511,15 @@
     width: 32rem;
   }
   
+
+}
+
+@media screen and (max-width: 2000px){
+
+  .rush .splitHalf .rightImage{
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    
+  }
 
 }

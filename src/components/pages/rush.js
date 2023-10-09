@@ -219,10 +219,10 @@ const Rush = () => {
             <div className="date">
 
               <div className="dateBlock">
-                <h1>PLEDGE</h1>
+                <h1>PROJECTS</h1>
               </div>
               <div className="vertLine" id="endVertLine">
-                <p>Once you accept your bid, you will then begin pledging. Prepare to spend a large amount of time and effort.</p>
+                <p>Once you accept your bid, prepare to spend a large amount of time and effort to complete the quarter-long projects.</p>
               </div>
             </div>
 
@@ -276,9 +276,9 @@ const Rush = () => {
 
             <span className="dot" id="dot4">
               <div className="lineText">
-                <p id="lineText4">Once you accept your bid, prepare to spend a large amount of time and effort.</p>
+                <p id="lineText4">Once you accept your bid, prepare to spend a large amount of time and effort to complete the quarter-long projects.</p>
                 <div className="bubble" id="bubble4">
-                  <h1>PLEDGE</h1>
+                  <h1>PROJECTS</h1>
                 </div>
                 <div className="arrow-up"></div>
               </div>
