@@ -37,6 +37,10 @@
     font-family: "Abhaya Libre", serif;
     margin-bottom: -3vw;
   }
+
+  p {
+    font-family: "Inter", sans-serif;
+  }
   
   .about .bannerText h3 {
     font-size: 2vw;
@@ -45,6 +49,10 @@
 
   .about .body {
     max-width: 2000px;
+  }
+
+  .about .height {
+    min-height: calc(100vh - 80px);
   }
   
   @media screen and (max-width: 950px) {
