@@ -5,6 +5,7 @@ import WhiteFooter from "../footers/whiteFooter.js";
 import SingleQuestion from "./SingleQuestion";
 import { ttfaq, rushfaq, bidfaq } from "./rushData";
 import gem from "../../images/gem.png";
+import footerImage from "../../images/rushfooterimage.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -24,6 +25,17 @@ const Rush = () => {
         <div className="rushBannerText px-2">
           <h1>RUSH</h1>
           <h3>Come out to rush and discover your community!</h3>
+          <div className="discordButton" id="discordMobile">
+            <a
+              href="https://discord.com/invite/wfPbeq9K"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="discordButton_a"
+            >
+              <FontAwesomeIcon icon={faDiscord} id="discordIcon"/>
+              <h2>Join the Server</h2>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -136,13 +148,13 @@ const Rush = () => {
                     
 
                     <a
-                      href="https://google.com"
+                      href="https://discord.com/invite/wfPbeq9K"
                       target="_blank"
                       rel="noopener noreferrer"
                       id="discordButton_a"
                     >
                       <FontAwesomeIcon icon={faDiscord} id="discordIcon"/>
-                      <h2>Join the Server!</h2>
+                      <h2>Join the Server</h2>
                     </a>
 
                   
@@ -163,6 +175,60 @@ const Rush = () => {
         </div>
 
         <div className="grow border-2 border-red-800"  id="line2-2"></div>
+
+        <div className="rushProcessMobile">
+          <h1 className="rushProcessText">Rush Process</h1>
+          <div className="timeline">
+
+            <div className="date">
+
+              <div className="dateBlock">
+                <h1>EXPLORE</h1>
+              </div>
+              <div className="vertLine"> 
+                <p>Join us for a whole week of rush events!</p>
+              </div>
+            </div>
+
+
+            <div className="date">
+
+              
+              <div className="dateBlock">
+                <h1>INTERVIEW</h1>
+              </div>
+              <div className="vertLine">
+                <p>The Brothers of Theta Tau would like to learn more about you through a formal interview.</p>
+              </div>
+              
+
+            </div>
+
+
+
+            <div className="date">
+
+              <div className="dateBlock">
+                <h1>BID</h1>
+              </div>
+              <div className="vertLine">
+                <p>If the Brothers of Theta Tau decide on you, an invitation will be sent to you.</p>
+              </div>
+            </div>
+
+            <div className="date">
+
+              <div className="dateBlock">
+                <h1>PLEDGE</h1>
+              </div>
+              <div className="vertLine" id="endVertLine">
+                <p>Once you accept your bid, you will then begin pledging. Prepare to spend a large amount of time and effort.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
 
         <div className="rushProcess">
 
@@ -292,8 +358,21 @@ const Rush = () => {
           
         </div>
 
-      </div>
+        {/* <div className="footerImage"></div> */}
+        {/* <img className="footerImage" src={footerImage}>
+
+        </img> */}
         
+      
+      </div>
+      <div className="footerImage">
+
+        <h1>Questions about Rush?</h1>
+        <a href = "mailto:nolam@ucsd.edu, aag006@ucsd.edu">Shoot our rush chairs an email</a>
+
+
+      </div>
+      
       <WhiteFooter />
       
     </div>
