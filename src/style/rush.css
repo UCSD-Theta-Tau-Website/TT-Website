@@ -558,9 +558,15 @@
 
   .rush .rushBannerText h1 {
     font-size: 20vw;
+    /* padding-bottom: 0; */
+    height: inherit;
+    margin-bottom: -6vw;
   }
   .rush .rushBannerText h3 {
+    /* margin-top: 0; */
+    /* padding-top: 0; */
     font-size: 4vw;
+    /* margin-bottom: 0vw; */
   }
  
   .rush .rushTimelineHeader{
