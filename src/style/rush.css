@@ -393,7 +393,7 @@
 
 .rush #lineText4{
   right: 11.7vw;
-  bottom: 8.5vw;
+  bottom: 8vw;
   width: 25vw;
 }
 
@@ -413,16 +413,20 @@
   max-width: 2000px;
   position: relative;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
+  /* height: calc(100vh - 80px); */
   width: 100vw;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: calc(100vh - 80px);
+  /* margin-bottom: -4.5vh; */
 }
 
 .rush .faq_header{
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .rush .faq_header img{
@@ -442,6 +446,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  /* min-height: calc(100vh - 80px); */
   
 }
 
@@ -456,7 +461,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 3vh;
+  /* padding-top: 1vh; */
 }
 
 .rush .accordionHeader .text-4xl{
@@ -472,10 +477,16 @@
   font-size: 1.5rem;
 }
 
+.rush .faqAnswers .body .flex{
+  padding-top: 0.25vw;
+  /* padding-bottom: 0; */
+
+}
+
 /* "width: 100%; height: 100%; background: linear-gradient(90deg, rgba(137, 26, 31, 0.80) 45%, rgba(137, 26, 31, 0) 100%)" */
 .footerImage{
   width: 100%;
-  height: 40vw;
+  /* height: 40vw; */
   height: calc(50vh - 40px);
   
   /* max-height: 20vw; */
@@ -793,13 +804,13 @@
     /* padding-top: 15vw;
     padding-left: 10vw; */
     /* padding-bottom: 1.5vw; */
-    width: 100vw;
+    width: 80%;
     /* font-size: 6rem; */
     /* line-height: 7vw; */
     /* line-height: 12vw; */
     padding-left: 8vw;
     line-height: 4rem;
-    padding-top: 20vw;
+    padding-top: 15vw;
   
   }
   
@@ -808,7 +819,7 @@
     color: white;
     text-decoration: underline;
     padding-left: 8vw;
-    font-size: 3vw;
+    font-size: 4vw;
     /* font-size: 1.5rem; */
     /* padding-left: 10vw; */
   }
@@ -1050,7 +1061,13 @@
     font-size: 3rem;
   }
 
+  .rush .faqAnswers{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
 }
+
 
 
 @media screen and (max-width: 450px){
@@ -1061,6 +1078,8 @@
   .rush .faqAnswers .body .flex{
     padding-top: 0px;
     padding-bottom: 0px;
+    /* padding-top: 0.5vh; */
+    /* padding-bottom: 0; */
   }
 
   .rush .faqAnswers .body .text-lg{
@@ -1154,6 +1173,12 @@
   }
 
 
+}
+
+@media screen and (max-width: 450px) and (min-height: 780px){
+  .rush .faq_section{
+    margin-bottom: -2.5vh;
+  }
 }
 
 
