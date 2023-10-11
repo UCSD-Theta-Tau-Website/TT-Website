@@ -36,7 +36,13 @@ export const rushfaq = [
     id: uuidv4(),
     question: "Who can come to rush?",
     answer: "While anyone is allowed to attend rush events, we only accept full-time students with majors in the UCSD Jacobs School of Engineering as well as Data Science and Math - Computer Science. There are no exceptions to this rule."
+  },
+  {
+    id: uuidv4(),
+    question: "Do I have to attend all rush events?",
+    answer: "Although there is no formal requirement, we strongly encourage you to come out to as many events as you can. This gives us the chance to get to know you better and you the chance to get to know us."
   }
+  
 ];
 
 export const bidfaq = [
@@ -47,7 +53,12 @@ export const bidfaq = [
   },
   {
     id: uuidv4(),
+    question: "How do you choose who receives a bid?",
+    answer: "Theta Tau searches for engineers who have a strong foundation in its three pillars: Brotherhood, Professionalism, and Philanthropy. We review each applicant as a whole (grades, personality, professionalism, resume, etc.) to determine whether we are the right fit for you."  
+  },
+  {
+    id: uuidv4(),
     question: "What is the time commitment after receiving a bid?",
-    answer: "Potential new members can expect a workload similar to a 6-unit upper division engineering course. The process is led by senior members of the Fraternity, who assist potential new members in developing professional skills, aiding the community, and most important of all, getting to know their future brothers."  
+    answer: "Prospective members can expect a workload similar to a 6-unit upper division engineering course. The process is led by senior members of the Fraternity, who assist prospective members in developing professional skills, aiding the community, and most important of all, getting to know their future brothers."  
   },
 ];
